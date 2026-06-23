@@ -1,0 +1,40 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# === Node / Frontend ===
+node_modules/
+frontend/dist/
+frontend/build/
+*.log
+npm-debug.log*
+
+# === Sensitive config ===
+.env
+edu_mvp/.env
+!.env.example
+
+# === Generated output ===
+edu_mvp/output/
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Shell scripts (keep) ===
+# start/stop scripts are intentional, not ignoring them
