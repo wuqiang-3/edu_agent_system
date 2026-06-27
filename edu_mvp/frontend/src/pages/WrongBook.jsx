@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Spin, Alert, Button, Empty } from 'antd'
-
-const API_BASE = 'http://localhost:8000'
+import { fetchWrongIds, fetchQuestions, clearWrongQuestions, removeWrongQuestion } from '../api'
 
 export default function WrongBook() {
-  const [wrongIds, setWrongIds] = useState([])
   const [wrongQuestions, setWrongQuestions] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -17,20 +15,16 @@ export default function WrongBook() {
   async function loadWrongQuestions() {
     try {
       setLoading(true)
-      // 1. 从 localStorage 获取错题 ID
-      const ids = JSON.parse(localStorage.getItem('wrongQuestions') || '[]')
-      setWrongIds(ids)
-
+      // 1. 从后端 API 获取错题 ID 列表
+      const ids = await fetchWrongIds()
       if (ids.length === 0) {
         setWrongQuestions([])
         setLoading(false)
         return
       }
 
-      // 2. 调用 API 获取所有题目，然后过滤出错题
-      const res = await fetch(`${API_BASE}/api/questions`)
-      if (!res.ok) throw new Error('Failed to fetch questions')
-      const allQuestions = await res.json()
+      // 2. 获取所有题目，过滤出错题
+      const allQuestions = await fetchQuestions()
       const qs = allQuestions.filter(q => ids.includes(q.q_id))
       setWrongQuestions(qs)
       setError(null)
@@ -42,10 +36,22 @@ export default function WrongBook() {
     }
   }
 
-  const clearWrong = () => {
-    localStorage.setItem('wrongQuestions', JSON.stringify([]))
-    setWrongIds([])
-    setWrongQuestions([])
+  const clearWrong = async () => {
+    try {
+      await clearWrongQuestions()
+      setWrongQuestions([])
+    } catch (err) {
+      console.error('清空错题失败:', err)
+    }
+  }
+
+  const removeOne = async (qId) => {
+    try {
+      await removeWrongQuestion(qId)
+      setWrongQuestions(prev => prev.filter(q => q.q_id !== qId))
+    } catch (err) {
+      console.error('删除错题失败:', err)
+    }
   }
 
   if (loading) {
@@ -116,7 +122,15 @@ export default function WrongBook() {
                     <span className="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold">
                       第 {idx + 1} 题
                     </span>
-                    <span className="text-gray-400 text-sm">{q.kp_name}</span>
+                    <div className="flex items-center gap-3">
+                      <span className="text-gray-400 text-sm">{q.kp_name}</span>
+                      <button
+                        onClick={() => removeOne(q.q_id)}
+                        className="text-red-400 hover:text-red-600 text-xs underline"
+                      >
+                        删除
+                      </button>
+                    </div>
                   </div>
                   <p className="text-gray-800 mb-4 leading-relaxed">{q.question_text}</p>
                   <div className="bg-green-50 rounded-xl p-4 text-sm">
@@ -129,6 +143,17 @@ export default function WrongBook() {
                       <p className="text-blue-700">{q.analysis}</p>
                     </div>
                   )}
+                  {/* 行动按钮 */}
+                  <div className="flex gap-3 mt-4">
+                    <Link to={`/student/quiz/${q.kp_id}`}
+                      className="px-4 py-2 bg-indigo-500 text-white rounded-xl text-xs font-bold hover:bg-indigo-600 transition-all">
+                      🔄 再做一次
+                    </Link>
+                    <Link to={`/student/quiz/${q.kp_id}`}
+                      className="px-4 py-2 border border-indigo-300 text-indigo-600 rounded-xl text-xs font-bold hover:bg-indigo-50 transition-all">
+                      🎯 去练习该知识点
+                    </Link>
+                  </div>
                 </div>
               ))}
             </div>

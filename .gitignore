@@ -38,3 +38,7 @@ Thumbs.db
 
 # === Shell scripts (keep) ===
 # start/stop scripts are intentional, not ignoring them
+
+# === Deprecated / Backups ===
+*.bak
+edu_mvp/backend/deprecated/

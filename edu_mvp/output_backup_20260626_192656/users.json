@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "user_id": "u_7364e8fbce510e31",
+      "username": "强子",
+      "name": "强子",
+      "role": "admin",
+      "password_hash": "8f2f4879a0a7ceba218464ffa5f91c28978ddbfc2b9c293fae3036430b524ee2",
+      "salt": "8f783b9dc96cc4345c53773e3bb68543",
+      "created_at": 1782391019633
+    }
+  ],
+  "sessions": []
+}

@@ -1,0 +1,5197 @@
+{
+  "province": "陕西省",
+  "city": "西安市",
+  "grade": 8,
+  "subject": "数学",
+  "textbook_status": "success",
+  "textbook_version": "北师大版（陕西地区8年级上）",
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "chapter_title": "勾股定理",
+      "chapter_order": 1,
+      "sections": [
+        {
+          "section_id": "CH01_SEC01",
+          "section_title": "勾股定理",
+          "content": "勾股定理：直角三角形两直角边a、b的平方和，等于斜边c的平方。\n公式：a² + b² = c²\n应用：已知两边求第三边；解决实际问题（如梯子滑动、最短路径）。\n勾股定理的逆定理：若三角形三边满足a²+b²=c²，则该三角形为直角三角形。"
+        },
+        {
+          "section_id": "CH01_SEC02",
+          "section_title": "勾股定理的应用",
+          "content": "最短路径问题：立体图形表面两点间最短距离，需展开成平面图形后用勾股定理。\n航海问题：船只航行方向问题，建立直角三角形模型。\n勾股数：满足a²+b²=c²的正整数组，如(3,4,5)、(5,12,13)。"
+        }
+      ],
+      "key_knowledge_points": [
+        "勾股定理公式",
+        "勾股定理逆定理",
+        "最短路径问题",
+        "勾股数"
+      ]
+    },
+    {
+      "chapter_id": "CH02",
+      "chapter_title": "实数",
+      "chapter_order": 2,
+      "sections": [
+        {
+          "section_id": "CH02_SEC01",
+          "section_title": "平方根",
+          "content": "平方根：若x²=a（a≥0），则x叫做a的平方根，记作±√a。\n算术平方根：非负数a的非负平方根，记作√a。\n性质：正数有两个平方根（互为相反数）；0的平方根是0；负数没有平方根。"
+        },
+        {
+          "section_id": "CH02_SEC02",
+          "section_title": "立方根",
+          "content": "立方根：若x³=a，则x叫做a的立方根，记作³√a。\n性质：任何实数都有且仅有一个立方根；符号与被开方数相同。\n开立方：求一个数立方根的运算叫做开立方。"
+        },
+        {
+          "section_id": "CH02_SEC03",
+          "section_title": "实数",
+          "content": "无理数：无限不循环小数（如√2、π）。\n实数：有理数和无理数的统称。\n实数与数轴：实数与数轴上的点一一对应。"
+        }
+      ],
+      "key_knowledge_points": [
+        "平方根概念",
+        "算术平方根",
+        "立方根概念",
+        "无理数定义",
+        "实数分类"
+      ]
+    },
+    {
+      "chapter_id": "CH03",
+      "chapter_title": "位置与坐标",
+      "chapter_order": 3,
+      "sections": [
+        {
+          "section_id": "CH03_SEC01",
+          "section_title": "平面直角坐标系",
+          "content": "平面直角坐标系：由两条互相垂直的数轴构成，交点为原点O(0,0)。\n点的坐标：点P在平面内的位置用有序数对(x,y)表示，x叫横坐标，y叫纵坐标。\n象限：坐标系被分为四个象限（I、II、III、IV），坐标轴上的点不属于任何象限。"
+        },
+        {
+          "section_id": "CH03_SEC02",
+          "section_title": "坐标变换",
+          "content": "平移变换：点(x,y)向右平移a个单位→(x+a,y)；向左平移a个单位→(x-a,y)。\n上下平移：点(x,y)向上平移b个单位→(x,y+b)；向下平移b个单位→(x,y-b)。\n对称变换：关于x轴对称→(x,-y)；关于y轴对称→(-x,y)；关于原点对称→(-x,-y)。"
+        }
+      ],
+      "key_knowledge_points": [
+        "坐标系概念",
+        "点的坐标表示",
+        "象限判断",
+        "坐标平移",
+        "坐标对称"
+      ]
+    },
+    {
+      "chapter_id": "CH04",
+      "chapter_title": "一次函数",
+      "chapter_order": 4,
+      "sections": [
+        {
+          "section_id": "CH04_SEC01",
+          "section_title": "函数概念",
+          "content": "函数：在一个变化过程中，有两个变量x和y，如果给定一个x值，y都有唯一确定的值与之对应，那么x是自变量，y是x的函数。\n函数值：对于自变量x在取值范围内的一个确定的值a，函数y所对应的值，叫做当x=a时的函数值。\n函数的表示方法：解析法、列表法、图象法。"
+        },
+        {
+          "section_id": "CH04_SEC02",
+          "section_title": "一次函数",
+          "content": "一次函数：形如y=kx+b（k≠0）的函数叫做一次函数。\n正比例函数：当b=0时，y=kx（k≠0）叫做正比例函数。\n一次函数的图象：一条直线，过点(0,b)和(-b/k,0)。\n一次函数的性质：k>0时y随x增大而增大；k<0时y随x增大而减小。"
+        },
+        {
+          "section_id": "CH04_SEC03",
+          "section_title": "一次函数的应用",
+          "content": "用一次函数解决实际问题：建立函数模型→求解析式→利用图象或解析式解决问题。\n方程、不等式与函数的关系：kx+b=0的解是直线与x轴交点的横坐标；kx+b>0的解集是直线在x轴上方的部分。\n方案选择问题：比较不同方案的优劣，选择最优解。"
+        }
+      ],
+      "key_knowledge_points": [
+        "函数概念",
+        "一次函数解析式",
+        "一次函数图象",
+        "一次函数性质",
+        "一次函数应用"
+      ]
+    },
+    {
+      "chapter_id": "CH05",
+      "chapter_title": "二元一次方程组",
+      "chapter_order": 5,
+      "sections": [
+        {
+          "section_id": "CH05_SEC01",
+          "section_title": "二元一次方程组",
+          "content": "二元一次方程：含有两个未知数，并且所含未知数的项的次数都是1的方程。\n二元一次方程组：由两个二元一次方程组成的方程组。\n二元一次方程的解：使方程两边相等的两个未知数的值，叫做二元一次方程的解（有无数组）。\n二元一次方程组的解：方程组中各个方程的公共解，叫做二元一次方程组的解。"
+        },
+        {
+          "section_id": "CH05_SEC02",
+          "section_title": "消元法",
+          "content": "代入消元法：从一个方程中用含一个未知数的代数式表示另一个未知数，再代入另一个方程，实现消元。\n加减消元法：把两个方程的两边分别相加或相减，消去一个未知数，得到一个一元一次方程。\n选择消元方法：某个未知数系数为±1时，用代入法；同一未知数系数相等或互为相反数时，用加减法。"
+        },
+        {
+          "section_id": "CH05_SEC03",
+          "section_title": "二元一次方程组的应用",
+          "content": "列二元一次方程组解应用题：审题→设未知数→列方程组→解方程组→检验→作答。\n常见题型：行程问题、工程问题、利润问题、数字问题。\n含参问题：已知方程组的解，求参数的值；或已知方程组的解的情况，求参数的取值范围。"
+        }
+      ],
+      "key_knowledge_points": [
+        "二元一次方程组概念",
+        "代入消元法",
+        "加减消元法",
+        "列方程组解应用题",
+        "含参问题"
+      ]
+    },
+    {
+      "chapter_id": "CH06",
+      "chapter_title": "数据的分析",
+      "chapter_order": 6,
+      "sections": [
+        {
+          "section_id": "CH06_SEC01",
+          "section_title": "平均数",
+          "content": "算术平均数：一组数据的和除以这组数据的个数所得到的商。\n加权平均数：如果n个数中，x₁出现f₁次，x₂出现f₂次...，那么这组数据的平均数为(x₁f₁+x₂f₂+...+xₙfₙ)/(f₁+f₂+...+fₙ)。\n平均数的意义：反映一组数据的集中趋势，但容易受极端值影响。"
+        },
+        {
+          "section_id": "CH06_SEC02",
+          "section_title": "中位数与众数",
+          "content": "中位数：将一组数据按照由小到大（或由大到小）的顺序排列，如果数据的个数是奇数，则处于中间位置的数就是这组数据的中位数；如果数据的个数是偶数，则中间两个数据的平均数就是这组数据的中位数。\n众数：一组数据中出现次数最多的数据叫做这组数据的众数。\n选择适当的量表示数据的集中趋势：平均数、中位数、众数各有特点，需根据数据特点和分析目的选择。"
+        },
+        {
+          "section_id": "CH06_SEC03",
+          "section_title": "方差",
+          "content": "方差：各个数据与平均数之差的平方的平均数。公式：s²=[(x₁-x̄)²+(x₂-x̄)²+...+(xₙ-x̄)²]/n。\n方差的意义：反映一组数据的波动大小，方差越大，数据的波动越大；方差越小，数据越稳定。\n标准差：方差的算术平方根，记作s。"
+        }
+      ],
+      "key_knowledge_points": [
+        "平均数计算",
+        "加权平均数",
+        "中位数求法",
+        "众数求法",
+        "方差计算"
+      ]
+    },
+    {
+      "chapter_id": "CH07",
+      "chapter_title": "平行线的证明",
+      "chapter_order": 7,
+      "sections": [
+        {
+          "section_id": "CH07_SEC01",
+          "section_title": "命题与证明",
+          "content": "命题：判断一件事情的语句，由题设和结论两部分组成。\n真命题与假命题：正确的命题叫做真命题；错误的命题叫做假命题。\n证明：根据已知条件，依据定义、公理、定理，推导出一个命题的正确性，这种推理过程叫做证明。\n基本事实（公理）：人类经过长期实践证实的真命题，作为判断其他命题真假的根据。"
+        },
+        {
+          "section_id": "CH07_SEC02",
+          "section_title": "平行线的判定",
+          "content": "判定方法1：同位角相等，两直线平行。\n判定方法2：内错角相等，两直线平行。\n判定方法3：同旁内角互补，两直线平行。\n判定方法4：平行于同一条直线的两条直线互相平行。"
+        },
+        {
+          "section_id": "CH07_SEC03",
+          "section_title": "平行线的性质",
+          "content": "性质1：两直线平行，同位角相等。\n性质2：两直线平行，内错角相等。\n性质3：两直线平行，同旁内角互补。\n平行线的判定与性质的区别：判定是由角的关系推平行；性质是由平行推角的关系。"
+        }
+      ],
+      "key_knowledge_points": [
+        "命题与证明",
+        "平行线判定",
+        "平行线性质",
+        "判定与性质的区别"
+      ]
+    },
+    {
+      "chapter_id": "CH08",
+      "chapter_title": "三角形",
+      "chapter_order": 8,
+      "sections": [
+        {
+          "section_id": "CH08_SEC01",
+          "section_title": "三角形基本概念",
+          "content": "三角形：由不在同一直线上的三条线段首尾顺次相接所组成的图形。\n三角形的边：组成三角形的三条线段。\n三角形的角：三角形内部的三个角。\n三角形的表示：△ABC。\n三角形的分类：按角分（锐角、直角、钝角）；按边分（不等边、等腰、等边）。"
+        },
+        {
+          "section_id": "CH08_SEC02",
+          "section_title": "三角形三边关系",
+          "content": "三边关系：三角形任意两边之和大于第三边；任意两边之差小于第三边。\n应用：判断三条线段能否组成三角形；求第三边的取值范围。\n三角形的周长：三边长度之和。"
+        },
+        {
+          "section_id": "CH08_SEC03",
+          "section_title": "三角形内角和",
+          "content": "内角和定理：三角形三个内角的和等于180°。\n外角性质：三角形的一个外角等于与它不相邻的两个内角之和。\n外角和性质：三角形的一个外角大于与它不相邻的任何一个内角。\n直角三角形的两个锐角互余。"
+        }
+      ],
+      "key_knowledge_points": [
+        "三角形概念",
+        "三边关系",
+        "内角和定理",
+        "外角性质"
+      ]
+    }
+  ],
+  "extractor_status": "success",
+  "knowledge_points": [
+    {
+      "kp_id": "MATH8_CH01_SEC01_KP01",
+      "kp_name": "勾股定理公式",
+      "chapter_id": "CH01",
+      "section_id": "CH01_SEC01",
+      "description": "勾股定理是直角三角形的基本性质，指出直角三角形的两条直角边的平方和等于斜边的平方，即a² + b² = c²。该定理是几何学中的核心定理之一，广泛应用于求解直角三角形中的未知边长。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "平方运算",
+        "三角形基本概念"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆直角边与斜边",
+        "忘记平方运算",
+        "误将公式用于非直角三角形"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC01_KP02",
+      "kp_name": "勾股定理的应用",
+      "chapter_id": "CH01",
+      "section_id": "CH01_SEC01",
+      "description": "勾股定理可用于已知直角三角形两边求第三边，以及解决实际问题，如梯子滑动、最短路径等。通过建立数学模型，将实际问题转化为直角三角形问题，利用公式计算未知边长。",
+      "difficulty": "★★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "运用",
+      "prerequisites": [
+        "勾股定理公式",
+        "平方根运算"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "未正确识别直角边和斜边",
+        "计算平方根时忽略正负",
+        "实际问题中未建立正确模型"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC01_KP03",
+      "kp_name": "勾股定理的逆定理",
+      "chapter_id": "CH01",
+      "section_id": "CH01_SEC01",
+      "description": "勾股定理的逆定理指出，若一个三角形的三边满足a² + b² = c²，则该三角形为直角三角形，且c为斜边。该定理用于判断三角形是否为直角三角形，是几何证明和问题解决中的重要工具。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "勾股定理公式",
+        "三角形分类"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "未验证最长边为斜边",
+        "混淆逆定理与定理本身",
+        "忽略平方和条件"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC02_KP01",
+      "kp_name": "立体图形表面最短路径",
+      "chapter_id": "CH01",
+      "section_id": "CH01_SEC02",
+      "description": "在立体图形（如长方体、圆柱体）表面求两点间最短距离时，需将立体图形展开成平面图形，将空间路径转化为平面上的线段，然后利用勾股定理计算该线段长度。此方法体现了化归思想，是勾股定理在几何中的典型应用。",
+      "difficulty": "★★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "运用",
+      "prerequisites": [
+        "勾股定理公式",
+        "立体图形展开图"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "未正确展开立体图形导致路径错误",
+        "混淆空间直线距离与表面路径"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC02_KP02",
+      "kp_name": "航海问题中的直角三角形模型",
+      "chapter_id": "CH01",
+      "section_id": "CH01_SEC02",
+      "description": "在航海问题中，船只的航行方向变化常形成直角三角形。通过建立方位角（如北偏东、南偏西）和距离的几何模型，可将实际问题抽象为直角三角形，利用勾股定理求解未知距离或方向。此知识点强调数学建模能力。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "勾股定理公式",
+        "方位角概念"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "方位角计算错误",
+        "未正确识别直角三角形的直角边"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC02_KP03",
+      "kp_name": "勾股数的识别与性质",
+      "chapter_id": "CH01",
+      "section_id": "CH01_SEC02",
+      "description": "勾股数是指满足a²+b²=c²的三个正整数，如(3,4,5)、(5,12,13)等。常见的勾股数有固定倍数关系，如(3,4,5)的倍数也是勾股数。掌握常见勾股数有助于快速判断直角三角形边长，简化计算过程。",
+      "difficulty": "★",
+      "importance": "了解",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "勾股定理公式",
+        "正整数概念"
+      ],
+      "exam_frequency": "低频",
+      "typical_errors": [
+        "误认为所有满足a²+b²=c²的数组都是正整数",
+        "忽略勾股数的倍数性质"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC01_KP01",
+      "kp_name": "平方根的定义",
+      "chapter_id": "CH02",
+      "section_id": "CH02_SEC01",
+      "description": "平方根是指若一个数x的平方等于a（a≥0），即x²=a，则x称为a的平方根。平方根通常用符号±√a表示，其中a是被开方数。理解平方根的定义是学习实数运算的基础，需要明确平方根与平方运算互为逆运算的关系。",
+      "difficulty": "★",
+      "importance": "核心考点",
+      "curriculum_requirement": "理解",
+      "prerequisites": [],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆平方根与算术平方根的概念",
+        "忽略被开方数a必须为非负数的条件"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC01_KP02",
+      "kp_name": "算术平方根的概念",
+      "chapter_id": "CH02",
+      "section_id": "CH02_SEC01",
+      "description": "算术平方根是非负数a的非负平方根，记作√a。与平方根不同，算术平方根只取非负值，即√a≥0。例如，9的平方根是±3，但算术平方根是3。掌握算术平方根有助于后续学习二次根式化简和实数运算。",
+      "difficulty": "★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "MATH8_CH02_SEC01_KP01"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "将算术平方根误写为±√a",
+        "忽略算术平方根的非负性，如认为√4=±2"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC01_KP03",
+      "kp_name": "平方根的性质",
+      "chapter_id": "CH02",
+      "section_id": "CH02_SEC01",
+      "description": "平方根的性质包括：正数有两个平方根，它们互为相反数（如4的平方根是±2）；0的平方根是0；负数没有平方根（因为任何实数的平方均非负）。这些性质是判断平方根存在性和求解方程x²=a的关键依据。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "MATH8_CH02_SEC01_KP01"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "误认为负数也有平方根",
+        "忽略0的平方根只有一个，误认为有两个"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC02_KP01",
+      "kp_name": "立方根的定义",
+      "chapter_id": "CH02",
+      "section_id": "CH02_SEC02",
+      "description": "立方根的定义：若x³=a，则x叫做a的立方根，记作³√a。其中a是被开方数，3是根指数。立方根与平方根不同，平方根要求被开方数非负，而立方根适用于任何实数。理解立方根的定义是学习开立方运算和解决相关问题的前提。",
+      "difficulty": "★",
+      "importance": "核心考点",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "乘方运算",
+        "平方根的概念"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆立方根与平方根的定义",
+        "忽略根指数3，误写为√a"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC02_KP02",
+      "kp_name": "立方根的性质",
+      "chapter_id": "CH02",
+      "section_id": "CH02_SEC02",
+      "description": "立方根的性质：任何实数都有且仅有一个立方根；立方根的符号与被开方数的符号相同，即正数的立方根为正数，负数的立方根为负数，0的立方根为0。这一性质与平方根不同，平方根中负数没有平方根。掌握立方根的性质有助于快速判断立方根的符号和唯一性。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "立方根的定义",
+        "实数的符号"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "误认为负数没有立方根",
+        "认为一个正数有两个立方根"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC02_KP03",
+      "kp_name": "开立方运算",
+      "chapter_id": "CH02",
+      "section_id": "CH02_SEC02",
+      "description": "开立方：求一个数立方根的运算叫做开立方。开立方与立方互为逆运算。例如，因为2³=8，所以³√8=2。开立方运算可以用于求解简单立方方程，如x³=27，解得x=³√27=3。掌握开立方运算需要熟练记忆常见数的立方值，并能准确进行符号判断。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "立方根的定义",
+        "立方运算"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "开立方时忽略符号，如³√(-8)误算为2",
+        "混淆开立方与开平方的运算规则"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC03_KP01",
+      "kp_name": "无理数的概念",
+      "chapter_id": "CH02",
+      "section_id": "CH02_SEC03",
+      "description": "无理数是指无限不循环小数，例如√2、π等。与有理数不同，无理数不能表示为两个整数的比。理解无理数的定义是区分有理数和实数的关键，也是学习实数分类的基础。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "有理数的概念",
+        "平方根与立方根"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "将无限循环小数误认为无理数",
+        "认为所有带根号的数都是无理数"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC03_KP02",
+      "kp_name": "实数的分类",
+      "chapter_id": "CH02",
+      "section_id": "CH02_SEC03",
+      "description": "实数是有理数和无理数的统称。有理数包括整数、分数（有限小数或无限循环小数），无理数包括无限不循环小数。掌握实数的分类有助于构建完整的数系认知，为后续学习实数运算奠定基础。",
+      "difficulty": "★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "有理数的概念",
+        "无理数的概念"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "混淆有理数与无理数的范围",
+        "遗漏0属于有理数"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC03_KP03",
+      "kp_name": "实数与数轴的对应关系",
+      "chapter_id": "CH02",
+      "section_id": "CH02_SEC03",
+      "description": "实数与数轴上的点一一对应，即每一个实数都可以用数轴上的一个点表示，反之亦然。这一性质体现了实数的连续性和完备性，是数形结合思想的重要体现，常用于比较实数大小和解决几何问题。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "数轴的概念",
+        "有理数与数轴的对应"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "认为数轴上的点只对应有理数",
+        "忽略无理数在数轴上的精确位置"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC01_KP01",
+      "kp_name": "平面直角坐标系的构成",
+      "chapter_id": "CH03",
+      "section_id": "CH03_SEC01",
+      "description": "平面直角坐标系由两条互相垂直的数轴构成，通常一条水平（x轴）和一条竖直（y轴），交点称为原点O，坐标为(0,0)。这是确定平面内点位置的基础框架，是后续学习函数图像和几何变换的前提。",
+      "difficulty": "★",
+      "importance": "核心考点",
+      "curriculum_requirement": "理解",
+      "prerequisites": [],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆x轴和y轴的方向",
+        "误认为原点坐标不是(0,0)"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC01_KP02",
+      "kp_name": "点的坐标表示方法",
+      "chapter_id": "CH03",
+      "section_id": "CH03_SEC01",
+      "description": "平面内任意一点P的位置用有序数对(x,y)表示，其中x称为横坐标，表示点到y轴的距离（带符号），y称为纵坐标，表示点到x轴的距离（带符号）。有序数对中顺序不可颠倒，否则表示不同点。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "将横纵坐标顺序写反",
+        "忽略坐标的符号（正负）",
+        "混淆坐标与距离的概念"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC01_KP03",
+      "kp_name": "象限的划分与特征",
+      "chapter_id": "CH03",
+      "section_id": "CH03_SEC01",
+      "description": "平面直角坐标系被x轴和y轴分为四个象限：第一象限（x>0,y>0）、第二象限（x<0,y>0）、第三象限（x<0,y<0）、第四象限（x>0,y<0）。坐标轴上的点（x=0或y=0）不属于任何象限，这是判断点所在区域的重要依据。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "将坐标轴上的点归入某个象限",
+        "混淆各象限内坐标的符号规律",
+        "误认为原点属于第一象限"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC02_KP01",
+      "kp_name": "点的平移变换",
+      "chapter_id": "CH03",
+      "section_id": "CH03_SEC02",
+      "description": "在平面直角坐标系中，点的平移变换遵循“左减右加，上加下减”的规律。具体地，点(x,y)向右平移a个单位得到(x+a,y)，向左平移a个单位得到(x-a,y)；向上平移b个单位得到(x,y+b)，向下平移b个单位得到(x,y-b)。平移变换不改变图形的形状和大小，只改变位置。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "平面直角坐标系",
+        "点的坐标表示"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆左右平移与上下平移的坐标变化方向",
+        "忘记平移时横纵坐标同时变化的情况"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC02_KP02",
+      "kp_name": "点的对称变换",
+      "chapter_id": "CH03",
+      "section_id": "CH03_SEC02",
+      "description": "点的对称变换包括关于坐标轴和原点的对称。关于x轴对称时，横坐标不变，纵坐标互为相反数，即(x,y)→(x,-y)；关于y轴对称时，纵坐标不变，横坐标互为相反数，即(x,y)→(-x,y)；关于原点对称时，横纵坐标均互为相反数，即(x,y)→(-x,-y)。对称变换是图形变换的基础。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "相反数的概念",
+        "点的坐标表示"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆关于x轴和y轴对称的坐标变化规律",
+        "忘记关于原点对称时两个坐标都要变号"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC02_KP03",
+      "kp_name": "平移与对称的综合应用",
+      "chapter_id": "CH03",
+      "section_id": "CH03_SEC02",
+      "description": "在解决实际问题时，常需要综合运用平移和对称变换。例如，通过多次平移或对称操作确定点的最终坐标，或利用对称性简化图形变换问题。理解变换的先后顺序对结果的影响，以及变换前后图形全等的性质，是解题的关键。",
+      "difficulty": "★★★",
+      "importance": "重要",
+      "curriculum_requirement": "运用",
+      "prerequisites": [
+        "点的平移变换",
+        "点的对称变换"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "忽略变换顺序导致坐标计算错误",
+        "未能正确识别对称轴或平移方向"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC01_KP01",
+      "kp_name": "函数定义",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC01",
+      "description": "函数描述了一个变化过程中两个变量之间的依赖关系。具体地，在一个变化过程中，有两个变量x和y，如果对于x的每一个确定的值，y都有唯一确定的值与之对应，那么x是自变量，y是x的函数。理解函数定义的关键在于把握“唯一确定”这一核心条件，即一个x值只能对应一个y值，这是判断一个关系是否为函数的重要依据。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "理解",
+      "prerequisites": [],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "误认为一个x对应多个y也是函数",
+        "混淆自变量和因变量的角色"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC01_KP02",
+      "kp_name": "函数值概念",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC01",
+      "description": "函数值是指当自变量x在取值范围内取一个确定的值a时，函数y所对应的值。函数值的计算需要将自变量的具体数值代入函数解析式中进行求解。理解函数值有助于将抽象的函数关系与具体的数值联系起来，是后续学习函数图像和性质的基础。",
+      "difficulty": "★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "忽略自变量的取值范围",
+        "代入时计算错误"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC01_KP03",
+      "kp_name": "函数的表示方法",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC01",
+      "description": "函数的表示方法主要有三种：解析法（用数学式子表示函数关系）、列表法（用表格列出部分自变量与函数值的对应关系）和图象法（在坐标系中用图像直观表示函数变化趋势）。每种方法各有优缺点，解析法精确，列表法直观，图象法形象，在实际问题中常结合使用。",
+      "difficulty": "★",
+      "importance": "了解",
+      "curriculum_requirement": "理解",
+      "prerequisites": [],
+      "exam_frequency": "低频",
+      "typical_errors": [
+        "混淆三种表示方法的适用场景",
+        "认为所有函数都能用解析法表示"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC02_KP01",
+      "kp_name": "一次函数的定义",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC02",
+      "description": "一次函数是指形如 y = kx + b（其中 k ≠ 0）的函数，k 和 b 为常数。k 称为斜率，b 称为截距。一次函数是初中数学中重要的函数类型，其图象为一条直线。理解一次函数的定义是学习其图象和性质的基础，需注意 k 不能为 0，否则函数退化为常数函数。",
+      "difficulty": "★",
+      "importance": "核心考点",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "函数的概念",
+        "变量与常量"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "忽略 k ≠ 0 的条件",
+        "将 y = kx + b 与 y = kx 混淆"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC02_KP02",
+      "kp_name": "正比例函数的定义",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC02",
+      "description": "正比例函数是一次函数的特殊情况，当一次函数 y = kx + b 中的 b = 0 时，函数变为 y = kx（k ≠ 0），称为正比例函数。正比例函数的图象是一条过原点的直线，其性质与一次函数类似，但图象必过点 (0,0)。正比例函数是理解比例关系和线性变化的重要模型。",
+      "difficulty": "★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "一次函数的定义"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "误认为正比例函数中 k 可以为 0",
+        "忽略正比例函数图象过原点"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC02_KP03",
+      "kp_name": "一次函数的图象特征",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC02",
+      "description": "一次函数 y = kx + b 的图象是一条直线，它经过两个关键点：(0, b) 和 (-b/k, 0)。其中 (0, b) 是图象与 y 轴的交点，称为纵截距；(-b/k, 0) 是图象与 x 轴的交点，称为横截距。掌握这两个点可以快速画出一次函数的图象，并理解函数在坐标系中的位置。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "一次函数的定义",
+        "平面直角坐标系"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆截距与距离",
+        "计算横截距时符号错误"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC02_KP04",
+      "kp_name": "一次函数的增减性",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC02",
+      "description": "一次函数 y = kx + b 的增减性由斜率 k 决定：当 k > 0 时，y 随 x 的增大而增大，函数图象从左到右上升；当 k < 0 时，y 随 x 的增大而减小，函数图象从左到右下降。这一性质是判断函数变化趋势的关键，常用于比较函数值大小或分析实际问题中的变化规律。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "一次函数的定义",
+        "正比例函数的性质"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "忽略 k 的正负对增减性的影响",
+        "将增减性与截距 b 混淆"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC03_KP01",
+      "kp_name": "一次函数解决实际问题的步骤",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC03",
+      "description": "用一次函数解决实际问题的一般步骤包括：首先建立函数模型，根据问题中的变量关系确定一次函数表达式；然后求出解析式，通常通过待定系数法或已知条件求解；最后利用函数图象或解析式分析问题，得出实际结论。这一过程体现了数学建模思想，是应用一次函数解决行程、费用、工程等问题的核心方法。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "运用",
+      "prerequisites": [
+        "一次函数解析式",
+        "待定系数法"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "忽略自变量取值范围",
+        "建模时变量关系错误"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC03_KP02",
+      "kp_name": "方程、不等式与一次函数的关系",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC03",
+      "description": "一次函数与一元一次方程、一元一次不等式有密切联系：方程kx+b=0的解对应直线y=kx+b与x轴交点的横坐标；不等式kx+b>0的解集对应直线在x轴上方的部分，即y>0时x的取值范围。这种关系将代数问题转化为几何问题，便于利用图象直观求解，是数形结合思想的重要体现。",
+      "difficulty": "★★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "一次函数图象",
+        "一元一次方程",
+        "一元一次不等式"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆大于0和小于0对应的图象区域",
+        "忽略k的正负对图象方向的影响"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC03_KP03",
+      "kp_name": "方案选择问题中的一次函数应用",
+      "chapter_id": "CH04",
+      "section_id": "CH04_SEC03",
+      "description": "方案选择问题通常涉及多个变量或条件，通过建立一次函数模型比较不同方案的优劣。例如，在费用、时间、资源分配等问题中，先列出各方案的函数表达式，再根据自变量取值范围或图象交点，分析在何种条件下哪个方案更优，从而选择最优解。这类问题考查学生综合运用一次函数知识解决实际决策问题的能力。",
+      "difficulty": "★★★",
+      "importance": "重要",
+      "curriculum_requirement": "运用",
+      "prerequisites": [
+        "一次函数解析式",
+        "一次函数图象",
+        "不等式"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "未考虑方案的实际限制条件",
+        "比较方案时忽略交点意义"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC01_KP01",
+      "kp_name": "二元一次方程的定义",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC01",
+      "description": "二元一次方程是指含有两个未知数，并且所含未知数的项的次数都是1的方程。其一般形式为ax+by=c（其中a、b、c为常数，且a、b均不为0）。理解该定义的关键在于把握“二元”（两个未知数）和“一次”（未知数的最高次数为1）两个核心要素，这是后续学习二元一次方程组的基础。",
+      "difficulty": "★",
+      "importance": "核心考点",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "一元一次方程的定义"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "误将xy=1等含有乘积项的方程视为二元一次方程",
+        "忽略未知数系数不能为零的条件"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC01_KP02",
+      "kp_name": "二元一次方程组的定义",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC01",
+      "description": "二元一次方程组是由两个二元一次方程组成的方程组。这两个方程必须同时满足“二元”和“一次”的条件，且通常含有相同的两个未知数。理解方程组的概念是解决实际问题和进行消元运算的前提，重点在于把握“由两个方程组成”和“共同求解”的数学思想。",
+      "difficulty": "★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "二元一次方程的定义"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "误将两个不同未知数的方程组合在一起",
+        "忽略方程组中方程必须为二元一次方程"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC01_KP03",
+      "kp_name": "二元一次方程的解",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC01",
+      "description": "二元一次方程的解是指使方程两边相等的两个未知数的值，通常用一对数值（x，y）表示。由于二元一次方程含有两个未知数，其解具有不确定性，因此一般有无数组解。理解解的不唯一性是区分方程与方程组解的关键，也为后续学习方程组的公共解奠定基础。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "二元一次方程的定义",
+        "一元一次方程的解"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "误认为二元一次方程只有一组解",
+        "混淆方程的解与方程组的解"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC01_KP04",
+      "kp_name": "二元一次方程组的解",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC01",
+      "description": "二元一次方程组的解是指方程组中各个方程的公共解，即同时满足两个方程的一对未知数的值（x，y）。与单个方程的解不同，方程组的解通常唯一（在一般线性情况下），它体现了数学中“联立求解”的思想。掌握公共解的概念是求解方程组和检验解正确性的核心。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "二元一次方程的解",
+        "二元一次方程组的定义"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "将单个方程的解误认为是方程组的解",
+        "代入检验时只验证一个方程而忽略另一个"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC02_KP01",
+      "kp_name": "代入消元法",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC02",
+      "description": "代入消元法是解二元一次方程组的一种基本方法。其核心步骤是：首先，从方程组中选取一个方程，将一个未知数用含另一个未知数的代数式表示出来；然后，将这个代数式代入到另一个方程中，从而消去一个未知数，将二元一次方程组转化为一元一次方程进行求解。该方法适用于方程中某个未知数的系数为1或-1的情况，可以简化计算过程。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "解一元一次方程",
+        "代数式表示"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "代入时忘记括号导致符号错误",
+        "代入后未化简直接求解"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC02_KP02",
+      "kp_name": "加减消元法",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC02",
+      "description": "加减消元法是解二元一次方程组的另一种常用方法。其原理是通过将两个方程的两边分别相加或相减，消去其中一个未知数，从而得到一个一元一次方程。具体操作时，需要观察两个方程中同一未知数的系数，如果系数相等或互为相反数，则可以直接相减或相加消元；如果系数不相等，则需要先通过等式性质将系数化为相等或相反数，再进行加减操作。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "等式的基本性质",
+        "有理数加减运算"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "加减时符号处理错误",
+        "未将方程两边同时乘以相同倍数"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC02_KP03",
+      "kp_name": "消元方法的选择策略",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC02",
+      "description": "在解二元一次方程组时，合理选择消元方法可以提高解题效率。一般原则是：当某个未知数的系数为±1时，优先使用代入消元法，因为此时表示代数式较为简便；当同一未知数的系数相等或互为相反数时，优先使用加减消元法，可以直接进行加减操作。如果系数既不特殊也不相等，则需要根据具体情况灵活选择，有时也可以将两种方法结合使用。",
+      "difficulty": "★★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "代入消元法",
+        "加减消元法"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "盲目选择方法导致计算复杂",
+        "忽略系数特点强行使用某一种方法"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC03_KP01",
+      "kp_name": "列二元一次方程组解应用题的一般步骤",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC03",
+      "description": "列二元一次方程组解应用题需遵循六个步骤：审题（明确已知量和未知量，找出等量关系）、设未知数（通常设两个未知数）、列方程组（根据等量关系列出两个方程）、解方程组（用代入法或加减法求解）、检验（验证解是否符合题意和实际意义）、作答（写出答案并注明单位）。这是解决实际问题的基本流程，强调逻辑性和完整性。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "MATH8_CH05_SEC01_KP01",
+        "MATH8_CH05_SEC02_KP01"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "漏掉检验步骤",
+        "设未知数时单位不统一",
+        "等量关系找错导致方程错误"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC03_KP02",
+      "kp_name": "常见应用题题型分析",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC03",
+      "description": "二元一次方程组应用题常见题型包括：行程问题（涉及速度、时间、路程，常利用相遇或追及关系）、工程问题（涉及工作效率、工作时间、工作总量，常设总工作量为1）、利润问题（涉及进价、售价、利润、利润率，利用利润=售价-进价）、数字问题（涉及数位上的数字，如两位数=十位数字×10+个位数字）。每种题型都有固定的等量关系模型，需灵活运用。",
+      "difficulty": "★★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "运用",
+      "prerequisites": [
+        "MATH8_CH05_SEC03_KP01"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "行程问题中混淆相向和同向运动",
+        "工程问题中工作效率计算错误",
+        "利润问题中忽略成本或折扣"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC03_KP03",
+      "kp_name": "含参问题的解法",
+      "chapter_id": "CH05",
+      "section_id": "CH05_SEC03",
+      "description": "含参问题是指方程组中含有字母参数（如a、b、k等），需要根据已知条件求解参数的值或取值范围。常见类型：已知方程组的解，将解代入原方程得到关于参数的方程，解之即可；已知方程组的解的情况（如解为正数、无解等），需先解方程组（用参数表示解），再根据条件列不等式或等式求解。此类问题考查方程与不等式的综合应用。",
+      "difficulty": "★★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "MATH8_CH05_SEC01_KP02",
+        "MATH8_CH05_SEC02_KP01"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "代入解时符号错误",
+        "忽略参数对解的影响",
+        "解不等式时方向判断错误"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC01_KP01",
+      "kp_name": "算术平均数的概念与计算",
+      "chapter_id": "CH06",
+      "section_id": "CH06_SEC01",
+      "description": "算术平均数是一组数据的总和除以数据的个数所得的商，是描述数据集中趋势的最基本统计量。计算时需将所有数据相加，再除以数据个数，结果反映数据的平均水平。",
+      "difficulty": "★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "忘记除以数据个数",
+        "计算总和时漏加或重复加数据"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC01_KP02",
+      "kp_name": "加权平均数的概念与计算",
+      "chapter_id": "CH06",
+      "section_id": "CH06_SEC01",
+      "description": "加权平均数是在数据分组或重复出现时，用各数据值乘以对应频数（权重）后求和，再除以总频数得到的平均数。它考虑了不同数据的重要程度，常用于统计调查和实际应用。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "算术平均数的概念与计算"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆频数与数据值",
+        "忘记除以总频数",
+        "权重分配错误"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC01_KP03",
+      "kp_name": "平均数的意义与局限性",
+      "chapter_id": "CH06",
+      "section_id": "CH06_SEC01",
+      "description": "平均数反映一组数据的集中趋势，能直观表示数据的平均水平，但容易受极端值（过大或过小的数据）影响，导致平均数偏离大多数数据的实际水平。因此，在分析数据时需结合其他统计量。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "算术平均数的概念与计算"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "忽视极端值对平均数的影响",
+        "认为平均数能代表所有数据"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC02_KP01",
+      "kp_name": "中位数的定义与计算",
+      "chapter_id": "CH06",
+      "section_id": "CH06_SEC02",
+      "description": "中位数是将一组数据按从小到大或从大到小顺序排列后，处于中间位置的数。当数据个数为奇数时，中位数是中间的那个数；当数据个数为偶数时，中位数是中间两个数的平均数。中位数不受极端值影响，能反映数据的中间水平。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "数据排序",
+        "平均数计算"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "未排序直接找中间数",
+        "混淆奇偶情况下的计算方法",
+        "将中位数误认为众数"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC02_KP02",
+      "kp_name": "众数的定义与识别",
+      "chapter_id": "CH06",
+      "section_id": "CH06_SEC02",
+      "description": "众数是一组数据中出现次数最多的数据。一组数据可以有一个众数、多个众数或没有众数（当所有数据出现次数相同时）。众数反映数据的集中趋势，常用于描述数据中的常见值或典型值，不受极端值影响。",
+      "difficulty": "★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "数据频数统计"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "误认为众数必须唯一",
+        "将众数与中位数混淆",
+        "忽略数据中出现次数相同的情况"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC02_KP03",
+      "kp_name": "平均数、中位数与众数的选择",
+      "chapter_id": "CH06",
+      "section_id": "CH06_SEC02",
+      "description": "平均数、中位数和众数都是描述数据集中趋势的统计量，但各有特点。平均数易受极端值影响，中位数不受极端值影响，众数反映最常见值。选择时需根据数据特点和分析目的：数据无极端值且需精确时用平均数；数据有极端值或偏态分布时用中位数；需了解典型值时用众数。",
+      "difficulty": "★★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "运用",
+      "prerequisites": [
+        "平均数计算",
+        "中位数定义",
+        "众数定义"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "不考虑数据特点盲目选择",
+        "混淆各统计量的适用场景",
+        "忽略极端值对平均数的影响"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC03_KP01",
+      "kp_name": "方差的概念与公式",
+      "chapter_id": "CH06",
+      "section_id": "CH06_SEC03",
+      "description": "方差是衡量一组数据离散程度的重要统计量，定义为各个数据与平均数之差的平方的平均数。其计算公式为s²=[(x₁-x̄)²+(x₂-x̄)²+...+(xₙ-x̄)²]/n，其中x̄表示数据的平均数，n为数据个数。方差反映了数据在平均数周围的分散程度。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "平均数"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "忘记平方差",
+        "混淆方差与标准差",
+        "计算时遗漏除以n"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC03_KP02",
+      "kp_name": "方差的意义与应用",
+      "chapter_id": "CH06",
+      "section_id": "CH06_SEC03",
+      "description": "方差的意义在于反映一组数据的波动大小或稳定性。方差越大，说明数据波动越大，数据越不稳定；方差越小，说明数据波动越小，数据越稳定。在实际应用中，方差常用于比较两组或多组数据的离散程度，如产品质量控制、成绩稳定性分析等场景。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "方差的概念与公式"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "误认为方差越大数据越稳定",
+        "忽略方差与平均数的关系"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC03_KP03",
+      "kp_name": "标准差的概念与计算",
+      "chapter_id": "CH06",
+      "section_id": "CH06_SEC03",
+      "description": "标准差是方差的算术平方根，记作s，即s=√s²。标准差与方差一样，用于衡量数据的离散程度，但标准差与原数据的单位相同，因此在实际应用中更直观。标准差越大，数据波动越大；标准差越小，数据越稳定。计算标准差时，需先求出方差，再取算术平方根。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "方差的概念与公式"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "混淆标准差与方差",
+        "计算标准差时忘记开平方",
+        "单位换算错误"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC01_KP01",
+      "kp_name": "命题的定义与结构",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC01",
+      "description": "命题是判断一件事情的语句，由题设和结论两部分组成。题设是已知条件，结论是由已知条件推出的结果。命题通常可以写成“如果……那么……”的形式，其中“如果”部分为题设，“那么”部分为结论。理解命题的结构是判断命题真假和进行证明的基础。",
+      "difficulty": "★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "混淆命题与一般陈述句",
+        "无法正确区分题设和结论"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC01_KP02",
+      "kp_name": "真命题与假命题",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC01",
+      "description": "真命题是指正确的命题，即题设成立时结论一定成立的命题；假命题是指错误的命题，即题设成立时结论不一定成立或明显不成立的命题。判断一个命题是真命题需要推理证明，而判断假命题只需举出一个反例即可。这是逻辑推理能力的重要体现。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "MATH8_CH07_SEC01_KP01"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "误将假命题当作真命题",
+        "举反例时不符合题设条件"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC01_KP03",
+      "kp_name": "证明与基本事实（公理）",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC01",
+      "description": "证明是根据已知条件，依据定义、公理、定理，通过推理推导出一个命题正确性的过程。基本事实（公理）是人类经过长期实践证实的真命题，作为判断其他命题真假的根据，无需再证明。证明是数学严谨性的体现，要求每一步推理都有依据。",
+      "difficulty": "★★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "运用",
+      "prerequisites": [
+        "MATH8_CH07_SEC01_KP01",
+        "MATH8_CH07_SEC01_KP02"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "证明过程中缺少依据",
+        "混淆公理与定理",
+        "循环论证"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC02_KP01",
+      "kp_name": "同位角相等判定平行线",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC02",
+      "description": "当两条直线被第三条直线所截，如果同位角相等，则这两条直线平行。这是平行线判定的基本方法之一，常用于几何证明中，需要准确识别同位角的位置关系。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "角的概念",
+        "相交线"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆同位角与内错角",
+        "忽略截线的作用"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC02_KP02",
+      "kp_name": "内错角相等判定平行线",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC02",
+      "description": "当两条直线被第三条直线所截，如果内错角相等，则这两条直线平行。内错角位于截线两侧，被截线之间，是平行线判定的重要依据，常与同位角判定结合使用。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "角的概念",
+        "相交线"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "误将内错角当作同位角",
+        "忽略内错角的位置特征"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC02_KP03",
+      "kp_name": "同旁内角互补判定平行线",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC02",
+      "description": "当两条直线被第三条直线所截，如果同旁内角互补（即和为180°），则这两条直线平行。同旁内角位于截线同侧，被截线之间，是平行线判定的补充方法，常用于复杂图形中。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "角的概念",
+        "相交线",
+        "互补角"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "混淆同旁内角与同位角",
+        "忘记互补条件"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC02_KP04",
+      "kp_name": "平行线传递性判定",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC02",
+      "description": "如果两条直线都平行于同一条直线，那么这两条直线互相平行。这是平行线判定的间接方法，基于平行线的传递性，常用于多线平行关系的推理中，简化证明过程。",
+      "difficulty": "★",
+      "importance": "了解",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "平行线的定义"
+      ],
+      "exam_frequency": "低频",
+      "typical_errors": [
+        "忽略平行线传递性的前提条件"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC03_KP01",
+      "kp_name": "平行线的性质1：同位角相等",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC03",
+      "description": "当两条平行线被第三条直线所截时，同位角相等。这是平行线的基本性质之一，常用于证明角度相等或计算角度大小。例如，若a∥b，则∠1=∠2（同位角）。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "平行线的定义",
+        "同位角的概念"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆同位角与内错角",
+        "未明确平行条件直接应用性质"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC03_KP02",
+      "kp_name": "平行线的性质2：内错角相等",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC03",
+      "description": "当两条平行线被第三条直线所截时，内错角相等。这一性质常用于几何证明中，通过内错角相等来推导其他角的关系或线段平行。例如，若a∥b，则∠3=∠4（内错角）。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "平行线的定义",
+        "内错角的概念"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆内错角与同位角",
+        "忽略平行条件直接使用性质"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC03_KP03",
+      "kp_name": "平行线的性质3：同旁内角互补",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC03",
+      "description": "当两条平行线被第三条直线所截时，同旁内角互补，即它们的和为180°。这一性质常用于计算角度或证明角的关系，是平行线性质中唯一涉及互补关系的性质。例如，若a∥b，则∠5+∠6=180°。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "平行线的定义",
+        "同旁内角的概念"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆互补与相等",
+        "忘记同旁内角位置关系"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC03_KP04",
+      "kp_name": "平行线的判定与性质的区别",
+      "chapter_id": "CH07",
+      "section_id": "CH07_SEC03",
+      "description": "平行线的判定是由角的关系（如同位角相等、内错角相等、同旁内角互补）推出两直线平行；而平行线的性质是由两直线平行推出角的关系。两者互为逆过程，但应用场景不同：判定用于证明平行，性质用于利用平行推导角的关系。",
+      "difficulty": "★★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "平行线的判定定理",
+        "平行线的性质"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "混淆判定与性质的应用方向",
+        "在证明中错误使用条件与结论"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC01_KP01",
+      "kp_name": "三角形的定义与表示",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC01",
+      "description": "三角形是由不在同一直线上的三条线段首尾顺次相接所组成的图形。三角形用符号“△”表示，顶点为A、B、C的三角形记作△ABC。理解三角形的定义是学习三角形性质的基础，需注意“不在同一直线上”和“首尾顺次相接”两个关键条件。",
+      "difficulty": "★",
+      "importance": "了解",
+      "curriculum_requirement": "理解",
+      "prerequisites": [],
+      "exam_frequency": "低频",
+      "typical_errors": [
+        "忽略“不在同一直线上”的条件",
+        "误认为三条线段任意连接即可构成三角形"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC01_KP02",
+      "kp_name": "三角形的边与角",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC01",
+      "description": "三角形的边是组成三角形的三条线段，三角形的角是三角形内部的三个角。边和角是三角形的基本元素，后续研究三角形的性质、全等、相似等均基于边和角的关系。需明确边和角的对应关系，如顶点A所对的边是BC。",
+      "difficulty": "★",
+      "importance": "了解",
+      "curriculum_requirement": "理解",
+      "prerequisites": [],
+      "exam_frequency": "低频",
+      "typical_errors": [
+        "混淆三角形的内角与外角",
+        "误将边与顶点对应错误"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC01_KP03",
+      "kp_name": "三角形的分类",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC01",
+      "description": "三角形可按角或边进行分类。按角分为锐角三角形（三个角都是锐角）、直角三角形（有一个角是直角）、钝角三角形（有一个角是钝角）。按边分为不等边三角形（三边都不相等）、等腰三角形（至少两边相等）、等边三角形（三边都相等）。分类是解决三角形问题的重要基础，需掌握各类三角形的定义和特征。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "混淆等腰三角形与等边三角形的关系",
+        "误认为直角三角形一定是等腰的",
+        "忽略三角形内角和为180°对分类的影响"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC02_KP01",
+      "kp_name": "三角形三边关系定理",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC02",
+      "description": "三角形三边关系定理指出：三角形任意两边之和大于第三边，任意两边之差小于第三边。这是判断三条线段能否构成三角形的基本依据，也是求解三角形边长取值范围的核心工具。该定理反映了三角形边长的内在约束，是几何学中重要的基础性质。",
+      "difficulty": "★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "线段长度比较",
+        "不等式基本概念"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "只考虑两边之和大于第三边，忽略两边之差小于第三边",
+        "误认为任意两边之和等于第三边也能构成三角形"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC02_KP02",
+      "kp_name": "判断三条线段能否组成三角形",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC02",
+      "description": "应用三角形三边关系定理，判断三条已知长度的线段能否组成三角形。具体方法：选取最短的两条线段，计算其和是否大于最长的线段；同时验证最长边与最短边的差是否小于第三边。若同时满足这两个条件，则能构成三角形，否则不能。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "三角形三边关系定理",
+        "比较线段长度"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "未比较所有组合，只验证一组两边之和",
+        "忽略两边之差的条件，导致错误判断"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC02_KP03",
+      "kp_name": "求第三边的取值范围",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC02",
+      "description": "已知三角形两边长度，利用三边关系定理求第三边的取值范围。设已知两边为a和b（a≤b），则第三边c必须满足：b - a < c < a + b。这个范围确保了任意两边之和大于第三边，且任意两边之差小于第三边，是求解三角形边长问题的常用方法。",
+      "difficulty": "★★★",
+      "importance": "核心考点",
+      "curriculum_requirement": "运用",
+      "prerequisites": [
+        "三角形三边关系定理",
+        "不等式求解"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "忽略两边之差的条件，只考虑和的范围",
+        "误将不等式方向写反，如c > a + b",
+        "未考虑a和b的大小关系，导致范围错误"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC02_KP04",
+      "kp_name": "三角形的周长",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC02",
+      "description": "三角形的周长定义为三边长度之和，即周长 = a + b + c，其中a、b、c为三角形的三条边长。周长是三角形的基本度量之一，常用于解决与边长相关的实际问题，如围栏长度、边框材料计算等。在已知两边和周长时，可反求第三边长度。",
+      "difficulty": "★",
+      "importance": "了解",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "三角形三边关系定理",
+        "加法运算"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "混淆周长与面积的概念",
+        "计算时遗漏某一边长"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC03_KP01",
+      "kp_name": "三角形内角和定理",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC03",
+      "description": "三角形内角和定理指出，任意三角形的三个内角之和恒等于180°。这是三角形最基本的性质之一，广泛应用于角度计算和几何证明中。通过该定理，可以求解未知内角，验证三角形形状，或推导其他几何关系。",
+      "difficulty": "★",
+      "importance": "核心考点",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "角的概念与度量"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "忘记内角和为180°而误用其他数值",
+        "在非三角形图形中错误应用该定理"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC03_KP02",
+      "kp_name": "三角形外角性质",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC03",
+      "description": "三角形的一个外角等于与它不相邻的两个内角之和。这一性质揭示了外角与内角之间的数量关系，常用于求解角度或证明角相等。理解外角定义（延长一边所得角）是正确应用的前提。",
+      "difficulty": "★★",
+      "importance": "重要",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "三角形内角和定理",
+        "邻补角概念"
+      ],
+      "exam_frequency": "中频",
+      "typical_errors": [
+        "混淆外角与相邻内角的关系",
+        "错误认为外角等于所有内角之和"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC03_KP03",
+      "kp_name": "三角形外角大于不相邻内角",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC03",
+      "description": "三角形的一个外角大于与它不相邻的任何一个内角。这是外角性质的不等式形式，常用于比较角的大小或证明角的不等关系。该性质基于外角等于两内角之和，因此必然大于其中任一内角。",
+      "difficulty": "★★",
+      "importance": "了解",
+      "curriculum_requirement": "理解",
+      "prerequisites": [
+        "三角形外角性质"
+      ],
+      "exam_frequency": "低频",
+      "typical_errors": [
+        "忽略“不相邻”条件而错误比较",
+        "误认为外角大于所有内角"
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC03_KP04",
+      "kp_name": "直角三角形锐角互余",
+      "chapter_id": "CH08",
+      "section_id": "CH08_SEC03",
+      "description": "在直角三角形中，两个锐角互余，即它们的和为90°。这是内角和定理在直角三角形中的特例，常用于求解直角三角形中的未知锐角，或判断三角形是否为直角三角形。",
+      "difficulty": "★",
+      "importance": "重要",
+      "curriculum_requirement": "掌握",
+      "prerequisites": [
+        "三角形内角和定理",
+        "直角定义"
+      ],
+      "exam_frequency": "高频",
+      "typical_errors": [
+        "混淆互余与互补概念",
+        "在非直角三角形中错误应用互余关系"
+      ]
+    }
+  ],
+  "method_status": "pending",
+  "learning_methods": [
+    {
+      "kp_id": "MATH8_CH01_SEC01_KP01",
+      "kp_name": "勾股定理公式",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "通过画直角三角形，标出直角边a、b和斜边c，直观理解公式a²+b²=c²的含义",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "用面积法证明：用四个全等的直角三角形拼成正方形，推导出a²+b²=c²",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "做3道基础题：已知两直角边求斜边，强化公式应用",
+          "duration_min": 8
+        },
+        {
+          "step": 4,
+          "action": "做2道变式题：已知斜边和一直角边求另一直角边，练习公式变形",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "勾股定理要记牢，直角边平方和等于斜边平方"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆直角边与斜边",
+          "why_happens": "未仔细识别直角，误将斜边当作直角边代入公式",
+          "how_to_avoid": "先标出直角符号，再确定斜边（最长边）"
+        },
+        {
+          "pitfall": "忘记平方运算",
+          "why_happens": "直接相加边长而非平方，如a+b=c",
+          "how_to_avoid": "牢记公式是a²+b²=c²，每一步都检查是否平方"
+        },
+        {
+          "pitfall": "误将公式用于非直角三角形",
+          "why_happens": "忽略直角条件，任意三角形也套用公式",
+          "how_to_avoid": "使用前先确认三角形有直角，否则不能用"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC01_KP02",
+      "kp_name": "勾股定理的应用",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "复习勾股定理公式和平方根运算，确保基础扎实",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "学习如何识别直角三角形中的直角边和斜边，掌握“斜边对直角”原则",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "练习已知两边求第三边的标准题型，分情况讨论（已知两直角边、已知一直角边和斜边）",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "学习将实际问题转化为直角三角形模型，如梯子滑动、最短路径问题",
+          "duration_min": 10
+        },
+        {
+          "step": 5,
+          "action": "总结解题步骤：画图→标已知→设未知→列方程→求解→检验合理性",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "先找直角定斜边，两边平方和等于第三边；实际问题画图看，模型建立是关键"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 3,
+        "comprehensive_count": 2
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "未正确识别直角边和斜边",
+          "why_happens": "对直角三角形的边角关系不熟悉，或题目中未明确标注直角",
+          "how_to_avoid": "养成先标出直角符号的习惯，斜边总是对着直角，且是最长边"
+        },
+        {
+          "pitfall": "计算平方根时忽略正负",
+          "why_happens": "平方根运算有正负两个解，但边长必须为正",
+          "how_to_avoid": "求边长时只取正平方根，并检查结果是否合理（边长>0）"
+        },
+        {
+          "pitfall": "实际问题中未建立正确模型",
+          "why_happens": "未能将实际情境抽象为直角三角形，或选错了直角边和斜边",
+          "how_to_avoid": "先画出示意图，标注所有已知长度和直角，再根据问题确定未知边"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC01_KP03",
+      "kp_name": "勾股定理的逆定理",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾勾股定理，明确其与逆定理的互逆关系：定理是已知直角求边，逆定理是已知边判直角",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过具体三角形（如3-4-5）验证a²+b²=c²，理解逆定理的判定逻辑",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "学习逆定理的证明方法（如反证法或构造法），加深逻辑理解",
+          "duration_min": 15
+        },
+        {
+          "step": 4,
+          "action": "练习判断给定三边是否构成直角三角形，强调先找出最长边作为斜边候选",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "三边平方比大小，最长边是斜边标；两小平方和相等，直角就在对面找"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "未验证最长边为斜边",
+          "why_happens": "直接套用a²+b²=c²，未先确定哪条边是c",
+          "how_to_avoid": "每次先比较三边长度，标记最长边为c，再计算两小边平方和"
+        },
+        {
+          "pitfall": "混淆逆定理与定理本身",
+          "why_happens": "对互逆关系理解不清，误将逆定理用于已知直角求边",
+          "how_to_avoid": "区分使用场景：已知直角用定理，判断直角用逆定理"
+        },
+        {
+          "pitfall": "忽略平方和条件",
+          "why_happens": "只检查a+b=c或a²+b²=c的近似值，未精确计算平方和",
+          "how_to_avoid": "严格计算平方和，避免心算或近似，必要时用计算器"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC02_KP01",
+      "kp_name": "立体图形表面最短路径",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾长方体、圆柱体的展开图，亲手画一画常见立体图形的展开图，理解不同展开方式",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "学习“化归思想”：将立体表面路径转化为平面上的线段，理解为什么展开后两点间直线距离最短",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "针对长方体，练习将不同面展开（如前面和上面、前面和右面），画出展开图并标出起点和终点",
+          "duration_min": 12
+        },
+        {
+          "step": 4,
+          "action": "针对圆柱体，练习沿母线剪开并展开成矩形，理解路径在展开图中是斜线段",
+          "duration_min": 8
+        },
+        {
+          "step": 5,
+          "action": "用勾股定理计算展开图中线段的长度，注意直角三角形的两条直角边对应展开图上的水平距离和垂直距离",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "立体表面找最短，展开平面是关键；化曲为直用勾股，两点一线不绕弯"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "未正确展开立体图形导致路径错误",
+          "why_happens": "对立体图形的展开方式不熟悉，或展开时遗漏了路径经过的面，导致展开图与实际路径不符",
+          "how_to_avoid": "先确定起点和终点所在的面，再选择正确的展开方式，确保路径经过的面在展开图中连续且共线"
+        },
+        {
+          "pitfall": "混淆空间直线距离与表面路径",
+          "why_happens": "误以为立体内部直线距离就是表面最短路径，忽略了表面必须沿着立体表面走",
+          "how_to_avoid": "牢记问题要求的是“表面”路径，不能穿过立体内部；展开后计算的是表面上的折线或斜线长度"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC02_KP02",
+      "kp_name": "航海问题中的直角三角形模型",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "复习方位角（北偏东、南偏西等）和勾股定理公式，确保基础扎实",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "观看或绘制典型航海路径图，理解方向变化如何形成直角三角形",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "学习建模步骤：标出起点、方向变化点、终点，连接成三角形，判断直角",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "练习将文字描述转化为几何图形，标注已知边长和角度",
+          "duration_min": 10
+        },
+        {
+          "step": 5,
+          "action": "应用勾股定理列方程求解未知距离，并检验结果合理性",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "航海路径画三角，方向变化找直角；北偏东来南偏西，勾股定理解距离。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "方位角计算错误，例如将北偏东30°误认为东偏北60°",
+          "why_happens": "对方位角的定义（从正北或正南开始偏转）理解不清晰",
+          "how_to_avoid": "每次画图前先标出正北方向，再按描述偏转，并检查角度是否在0-90°之间"
+        },
+        {
+          "pitfall": "未正确识别直角三角形的直角边",
+          "why_happens": "航海路径中直角可能由垂直方向变化（如正东转正北）形成，但学生容易忽略",
+          "how_to_avoid": "在图形中标注所有方向箭头，检查相邻方向是否垂直（如北与东、南与西）"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH01_SEC02_KP03",
+      "kp_name": "勾股数的识别与性质",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "熟记常见勾股数（3,4,5）、（5,12,13）、（8,15,17）、（7,24,25）及其倍数",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "理解勾股数的倍数性质：若(a,b,c)是勾股数，则(ka,kb,kc)也是勾股数",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "通过列举法验证勾股数条件：检查三个正整数是否满足a²+b²=c²",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "勾股数，要记牢，345是基础；倍数关系可扩展，平方和等斜边方"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误认为所有满足a²+b²=c²的数组都是正整数",
+          "why_happens": "忽略勾股数定义中'正整数'的限制",
+          "how_to_avoid": "判断时先确认三个数是否为正整数，再验证平方关系"
+        },
+        {
+          "pitfall": "忽略勾股数的倍数性质",
+          "why_happens": "只记住基本勾股数，不会灵活应用倍数",
+          "how_to_avoid": "练习时主动将基本勾股数乘以整数倍，检查是否仍满足条件"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC01_KP01",
+      "kp_name": "平方根的定义",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "从具体数字出发，理解平方运算与平方根的互逆关系。例如：3²=9，所以9的平方根是±3。",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "明确平方根的定义：若x²=a（a≥0），则x是a的平方根。强调a必须非负。",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "区分平方根（±√a）与算术平方根（√a）的概念，通过对比表格记忆。",
+          "duration_min": 7
+        },
+        {
+          "step": 4,
+          "action": "练习判断一个数是否有平方根，并写出其平方根（如0、1、4、9、2等）。",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "平方根，正负双，被开方数非负量；算术根，只取正，两者区别要分清。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆平方根与算术平方根的概念",
+          "why_happens": "对定义理解不深，符号±√a与√a的含义混淆",
+          "how_to_avoid": "牢记平方根有两个（正负），算术平方根只有一个（非负），并反复对比练习"
+        },
+        {
+          "pitfall": "忽略被开方数a必须为非负数的条件",
+          "why_happens": "只关注运算结果，忘记平方根定义的前提",
+          "how_to_avoid": "每次写平方根前先检查被开方数是否≥0，养成习惯"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC01_KP02",
+      "kp_name": "算术平方根的概念",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "理解算术平方根的定义：非负数a的非负平方根，记作√a，且√a≥0。",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "对比平方根与算术平方根：例如9的平方根是±3，算术平方根是3，明确区别。",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "通过数轴和面积模型理解算术平方根的几何意义（如正方形边长）。",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "练习判断常见数的算术平方根，如√0=0，√1=1，√4=2，√9=3。",
+          "duration_min": 10
+        },
+        {
+          "step": 5,
+          "action": "总结易错点：算术平方根只有一个非负值，不能写成±√a。",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "算术平方根，非负才放心；根号下非负，结果也是正。"
+      },
+      "practice_guide": {
+        "base_count": 5,
+        "intermediate_count": 3,
+        "comprehensive_count": 2
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "将算术平方根误写为±√a",
+          "why_happens": "混淆了平方根与算术平方根的概念，误以为算术平方根也有正负两个值。",
+          "how_to_avoid": "牢记算术平方根只取非负值，遇到√a只写一个非负结果。"
+        },
+        {
+          "pitfall": "忽略算术平方根的非负性，如认为√4=±2",
+          "why_happens": "受平方根概念影响，忘记算术平方根的定义要求结果非负。",
+          "how_to_avoid": "每次计算前默念“算术平方根结果非负”，并检查结果是否≥0。"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC01_KP03",
+      "kp_name": "平方根的性质",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾平方运算，理解平方根是平方的逆运算，通过具体例子（如2²=4，(-2)²=4）感受正数有两个平方根且互为相反数",
+          "duration_min": 8
+        },
+        {
+          "step": 2,
+          "action": "用数轴和平方运算图演示0²=0，理解0的平方根只有0；再尝试找负数的平方根，发现无实数解，总结负数没有平方根",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "用符号表示法（±√a）和文字语言反复对比，强化“正数两个、0一个、负数无”的结论，并做简单判断练习",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "正数平方根，两个相反数；零的平方根，只有一个零；负数没有根，平方非负定"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误认为负数也有平方根",
+          "why_happens": "受正数有平方根的习惯影响，忽略平方非负的前提",
+          "how_to_avoid": "每次判断前先看被开方数是否非负，牢记“负数无平方根”"
+        },
+        {
+          "pitfall": "忽略0的平方根只有一个，误认为有两个",
+          "why_happens": "将正数的规律（两个相反数）错误推广到0",
+          "how_to_avoid": "单独记忆0的特殊性，用“0的平方根就是0”强化唯一性"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC02_KP01",
+      "kp_name": "立方根的定义",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾乘方运算，复习平方根的概念，建立新旧知识联系",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过具体例子（如2³=8，则2是8的立方根）理解定义，并对比平方根（如√4=2）",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "强调立方根适用于任何实数（正、负、零），并举例说明（如(-2)³=-8，则-2是-8的立方根）",
+          "duration_min": 8
+        },
+        {
+          "step": 4,
+          "action": "练习书写立方根符号³√a，注意根指数3的位置，避免与平方根混淆",
+          "duration_min": 5
+        },
+        {
+          "step": 5,
+          "action": "完成基础练习题，巩固定义并纠正常见错误",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "对比口诀",
+        "content": "平方根，非负才可行；立方根，正负零都行。根指数3别忘写，立方根里找立方。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆立方根与平方根的定义",
+          "why_happens": "平方根要求被开方数非负，而立方根无此限制，学生容易将平方根的性质套用到立方根上",
+          "how_to_avoid": "通过对比表格列出平方根与立方根的区别（被开方数范围、根指数、结果符号），并反复练习正负数的立方根"
+        },
+        {
+          "pitfall": "忽略根指数3，误写为√a",
+          "why_happens": "平方根符号√a使用频繁，学生习惯性省略根指数，导致立方根书写错误",
+          "how_to_avoid": "每次书写立方根时，刻意先写根指数3再写被开方数，并口头默念'三次根号下a'"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC02_KP02",
+      "kp_name": "立方根的性质",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读并理解立方根的三条性质：任何实数都有唯一立方根；立方根符号与被开方数相同；0的立方根是0。",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "与平方根性质对比记忆，列出表格：平方根负数无、正数有两个；立方根任何数都有且只有一个。",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "用具体数字举例验证：8的立方根是2，-8的立方根是-2，0的立方根是0。",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "完成3道判断符号的练习题，强化“符号相同”这一关键点。",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "对比口诀",
+        "content": "平方根，负无根，正有两个；立方根，任何数，一个不落，符号跟着被开方走。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误认为负数没有立方根",
+          "why_happens": "受平方根性质影响，错误迁移到立方根",
+          "how_to_avoid": "牢记立方根与平方根不同，负数有立方根，且为负数"
+        },
+        {
+          "pitfall": "认为一个正数有两个立方根",
+          "why_happens": "混淆平方根与立方根，以为正数立方根也有两个",
+          "how_to_avoid": "明确立方根的唯一性，任何实数只有一个立方根"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC02_KP03",
+      "kp_name": "开立方运算",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾立方运算：列出1-10的立方值，并写出对应的立方根，建立互逆关系",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "记忆常见数的立方（1³=1, 2³=8, 3³=27, 4³=64, 5³=125, 6³=216, 7³=343, 8³=512, 9³=729, 10³=1000）",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "练习符号判断：正数的立方根为正，负数的立方根为负，0的立方根为0，通过例题³√8=2, ³√(-8)=-2, ³√0=0强化",
+          "duration_min": 7
+        },
+        {
+          "step": 4,
+          "action": "解简单立方方程：如x³=27, x³=-64, 2x³=16等，逐步写出求解过程",
+          "duration_min": 10
+        },
+        {
+          "step": 5,
+          "action": "对比开平方与开立方的异同，总结开立方时符号处理规则",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "正数立方根为正，负数立方根为负，零的立方根还是零；1到10立方要记清，开立方时逆运算"
+      },
+      "practice_guide": {
+        "base_count": 5,
+        "intermediate_count": 3,
+        "comprehensive_count": 2
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "开立方时忽略符号，如³√(-8)误算为2",
+          "why_happens": "受开平方影响，误以为负数不能开方，或忘记立方根符号与被开方数一致",
+          "how_to_avoid": "牢记：任何实数都有唯一立方根，且符号与被开方数相同；练习时先判断被开方数正负"
+        },
+        {
+          "pitfall": "混淆开立方与开平方的运算规则",
+          "why_happens": "平方根有正负两个，而立方根只有一个，学生容易混淆",
+          "how_to_avoid": "对比记忆：平方根±√a（a≥0），立方根³√a（a为任意实数）；多做对比练习"
+        },
+        {
+          "pitfall": "计算立方根时忘记立方值，如将³√64误算为4（正确为4）但实际是8",
+          "why_happens": "对常见立方数记忆不牢，或与平方数混淆",
+          "how_to_avoid": "制作1-10立方数卡片，每天默写一遍；区分平方表与立方表"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC03_KP01",
+      "kp_name": "无理数的概念",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾有理数定义（整数和分数，即能表示为两个整数之比），并对比无理数定义（无限不循环小数，不能表示为整数比）",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过具体例子（如√2、π、0.1010010001…）感受无理数的无限不循环特性，并与循环小数（如0.333…）对比",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "总结无理数的常见类型：带根号且开不尽的数、π类、构造型无限不循环小数",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "无理数，无限不循环；根号开不尽，π和构造型"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "将无限循环小数误认为无理数",
+          "why_happens": "只看到“无限”而忽略“循环”",
+          "how_to_avoid": "判断时先检查小数是否循环，循环则是有理数"
+        },
+        {
+          "pitfall": "认为所有带根号的数都是无理数",
+          "why_happens": "忽略根号下是完全平方数的情况（如√4=2）",
+          "how_to_avoid": "先化简根号，看结果是否为整数或分数"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC03_KP02",
+      "kp_name": "实数的分类",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读教材，理解实数由有理数和无理数组成，有理数包括整数和分数（有限小数或无限循环小数），无理数是无限不循环小数。",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "绘制思维导图或分类树，将实数分为有理数和无理数，并进一步细分有理数（整数、分数）和无理数（常见形式如π、根号等）。",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "用口诀或关键词记忆分类要点，例如“有理数，整分有限循环；无理数，无限不循环”。",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "做分类练习，将给定数字（如0、1/3、√2、π、0.333...、-5）归类，并口头解释原因。",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "实数分两类，有理和无理；有理整分有限环，无理无限不循环；零是有理别忘记，分类清晰不混乱。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆有理数与无理数的范围",
+          "why_happens": "对有理数和无理数的定义理解不深，误以为所有带根号的数都是无理数，或所有小数都是有理数。",
+          "how_to_avoid": "牢记定义：有理数可化为分数形式（有限或循环小数），无理数是无限不循环小数。遇到数字先尝试化为分数或判断小数类型。"
+        },
+        {
+          "pitfall": "遗漏0属于有理数",
+          "why_happens": "0是特殊整数，容易被忽略或误认为既不是正数也不是负数而排除在有理数外。",
+          "how_to_avoid": "明确整数包括正整数、0和负整数，0是有理数。在分类时专门检查0是否被正确归类。"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH02_SEC03_KP03",
+      "kp_name": "实数与数轴的对应关系",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾数轴三要素（原点、正方向、单位长度）及有理数在数轴上的表示方法",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过画图理解无理数（如√2、π）在数轴上的精确位置：利用勾股定理构造√2，利用圆滚动法构造π",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "总结“实数与数轴上的点一一对应”的含义：每个实数对应唯一一个点，每个点对应唯一一个实数",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "应用数轴比较实数大小：在数轴上，右边的数大于左边的数",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "数轴点，实数全，一一对应不混乱；有理无理都能标，右边大来左边小。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "认为数轴上的点只对应有理数",
+          "why_happens": "受有理数学习影响，忽略无理数也能在数轴上表示",
+          "how_to_avoid": "牢记无理数（如√2、π）的构造方法，并动手画图验证"
+        },
+        {
+          "pitfall": "忽略无理数在数轴上的精确位置",
+          "why_happens": "对无理数的几何构造不熟悉，误以为只能近似表示",
+          "how_to_avoid": "掌握√2、√3、π等常见无理数的精确构造方法，并反复练习"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC01_KP01",
+      "kp_name": "平面直角坐标系的构成",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "观察标准坐标系图，记住x轴（水平）、y轴（竖直）和原点O的位置",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "用口诀记忆：横轴x，纵轴y，原点相交在中心",
+          "duration_min": 3
+        },
+        {
+          "step": 3,
+          "action": "在纸上画出坐标系，标注x轴、y轴和原点，并写出原点坐标(0,0)",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "闭眼回忆坐标系的三要素：两条垂直数轴、原点、方向",
+          "duration_min": 2
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "横轴x，纵轴y，原点相交在中心，坐标(0,0)记心里"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆x轴和y轴的方向",
+          "why_happens": "未建立水平与竖直的对应关系",
+          "how_to_avoid": "用口诀'横x纵y'，并反复画图标注"
+        },
+        {
+          "pitfall": "误认为原点坐标不是(0,0)",
+          "why_happens": "对原点的定义理解不深",
+          "how_to_avoid": "记住原点就是两条数轴的交点，坐标一定是(0,0)"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC01_KP02",
+      "kp_name": "点的坐标表示方法",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "理解坐标系的构成：画平面直角坐标系，明确x轴（水平）、y轴（竖直）、原点O，以及四个象限的分布",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "理解有序数对的含义：用具体点（如(3,2)）演示横坐标是到y轴的距离（右正左负），纵坐标是到x轴的距离（上正下负），强调顺序不可颠倒",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "对比练习：给出多个点的坐标，在坐标系中描点；再给出坐标系中的点，写出坐标，特别注意符号和顺序",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "总结坐标与距离的关系：坐标绝对值表示距离，符号表示方向，避免混淆",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "横坐标先写，纵坐标后写；右正左负横，上正下负纵；顺序不能乱，符号要看清"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "将横纵坐标顺序写反",
+          "why_happens": "未理解有序数对中第一个数对应横坐标、第二个数对应纵坐标的固定顺序",
+          "how_to_avoid": "每次写坐标前默念“横坐标在前，纵坐标在后”，并对照坐标系检查"
+        },
+        {
+          "pitfall": "忽略坐标的符号（正负）",
+          "why_happens": "只关注点到轴的距离，忘记方向决定正负",
+          "how_to_avoid": "先确定点所在的象限或轴的位置，再根据象限符号规则（一全正，二负正，三负负，四正负）写出坐标"
+        },
+        {
+          "pitfall": "混淆坐标与距离的概念",
+          "why_happens": "误以为坐标就是距离，忽略符号",
+          "how_to_avoid": "明确坐标是有符号数，距离是绝对值；练习时先写出绝对值再根据方向添加符号"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC01_KP03",
+      "kp_name": "象限的划分与特征",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "绘制平面直角坐标系，标注x轴、y轴和原点，用不同颜色标记四个象限区域",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "列出每个象限内点的坐标符号规律（+，+）、（-，+）、（-，-）、（+，-），并配合手势或口诀记忆",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "强调坐标轴上的点（x=0或y=0）不属于任何象限，并举例说明",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "做快速判断练习：给出10个点的坐标，快速说出所在象限或是否在坐标轴上",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "一全正，二正弦（x负y正），三全负，四余弦（x正y负）"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "将坐标轴上的点归入某个象限",
+          "why_happens": "忽略坐标轴上的点不属于任何象限的定义",
+          "how_to_avoid": "每次判断前先检查x或y是否为0，若为0则直接判定在坐标轴上"
+        },
+        {
+          "pitfall": "混淆各象限内坐标的符号规律",
+          "why_happens": "对各象限符号顺序记忆不牢或混淆",
+          "how_to_avoid": "使用口诀辅助记忆，并多画图标注符号"
+        },
+        {
+          "pitfall": "误认为原点属于第一象限",
+          "why_happens": "认为原点坐标(0,0)为正数，但实际x和y均为0",
+          "how_to_avoid": "明确原点既不在x轴也不在y轴的正半轴，是坐标轴交点，不属于任何象限"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC02_KP01",
+      "kp_name": "点的平移变换",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "理解平移方向与坐标变化的对应关系：左右平移改变横坐标，上下平移改变纵坐标",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "记忆口诀“左减右加，上加下减”，并用手势辅助记忆：左手向左指表示减，右手向右指表示加；向上指表示加，向下指表示减",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "在坐标系中画出点(2,3)，分别进行左、右、上、下平移2个单位，写出新坐标并验证",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "练习同时进行左右和上下平移的题目，例如点(1,2)先右移3再下移4，写出最终坐标",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "左减右加横坐标，上加下减纵坐标"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆左右平移与上下平移的坐标变化方向",
+          "why_happens": "对“左减右加”和“上加下减”的记忆不牢固，或者误以为左右平移改变纵坐标",
+          "how_to_avoid": "反复默念口诀，并在每次做题前先明确平移方向对应的坐标轴"
+        },
+        {
+          "pitfall": "忘记平移时横纵坐标同时变化的情况",
+          "why_happens": "只关注了单一方向平移，忽略了题目可能要求同时进行左右和上下平移",
+          "how_to_avoid": "养成先分解平移步骤的习惯，分别处理横纵坐标的变化"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC02_KP02",
+      "kp_name": "点的对称变换",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "用口诀记忆三种对称变换规律：关于x轴对称——横不变，纵相反；关于y轴对称——纵不变，横相反；关于原点对称——横纵都相反。",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "在坐标系中画出点(2,3)，分别标出关于x轴、y轴和原点对称的点，并写出坐标，对比规律。",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "用相反数概念解释规律：关于x轴对称即纵坐标取相反数，关于y轴对称即横坐标取相反数，关于原点对称即横纵坐标都取相反数。",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "做3道基础题，分别求点(4,-5)关于x轴、y轴、原点的对称点坐标。",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "关于x轴横不变，纵变号；关于y轴纵不变，横变号；关于原点全变号。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆关于x轴和y轴对称的坐标变化规律",
+          "why_happens": "对“横不变、纵相反”和“纵不变、横相反”记忆不清，或误以为对称轴对应坐标变化",
+          "how_to_avoid": "牢记口诀：关于哪个轴对称，哪个坐标不变，另一个坐标变号"
+        },
+        {
+          "pitfall": "忘记关于原点对称时两个坐标都要变号",
+          "why_happens": "只记得关于坐标轴对称的规律，忽略了原点对称需要同时改变两个坐标",
+          "how_to_avoid": "将原点对称理解为两次对称（先关于x轴再关于y轴），自然得出两个坐标都变号"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH03_SEC02_KP03",
+      "kp_name": "平移与对称的综合应用",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾点的平移和对称变换规则，列出坐标变化公式",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "通过具体例子（如点(1,2)先向右平移3个单位再关于y轴对称）手动计算坐标，并对比交换顺序的结果",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "总结变换顺序对最终坐标的影响规律，并理解图形全等的性质",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "练习综合应用题，如利用对称性简化多次平移问题",
+          "duration_min": 15
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "平移对称综合用，顺序不同结果变；先平后对坐标换，先对后平要倒算"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽略变换顺序导致坐标计算错误",
+          "why_happens": "未意识到变换顺序影响最终结果，直接按直觉计算",
+          "how_to_avoid": "每次变换后立即更新坐标，再执行下一步变换"
+        },
+        {
+          "pitfall": "未能正确识别对称轴或平移方向",
+          "why_happens": "对对称轴（如x轴、y轴）和平移方向（左、右、上、下）的符号规则不熟悉",
+          "how_to_avoid": "先画出坐标系，标注对称轴和箭头方向，再套用公式"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC01_KP01",
+      "kp_name": "函数定义",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读函数定义，圈出关键词“唯一确定”，用自己的话复述定义",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过正反例对比理解：给出多个关系（如y=x+1、y=x²、x=y²），判断哪些是函数，并说明理由",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "用生活实例（如时间与温度、身高与鞋码）强化“唯一确定”的概念",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "完成基础练习题，重点练习判断函数关系",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "关键词联想",
+        "content": "记住“唯一确定”四个字，联想“一个x只能找一个y，不能找多个y”，就像每个人只有一个身份证号"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误认为一个x对应多个y也是函数",
+          "why_happens": "没有抓住“唯一确定”这一核心条件，只关注了变量之间的依赖关系",
+          "how_to_avoid": "每次判断时先固定x值，检查y是否唯一；若出现多个y值，则不是函数"
+        },
+        {
+          "pitfall": "混淆自变量和因变量的角色",
+          "why_happens": "对定义中“x是自变量，y是x的函数”的表述理解不深，容易颠倒",
+          "how_to_avoid": "牢记“自变量是主动变化的量，因变量是随之唯一确定的量”，用“y依赖于x”来记忆"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC01_KP02",
+      "kp_name": "函数值概念",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "理解函数值的定义：自变量x取a时，函数y对应的值f(a)就是函数值。通过生活实例（如温度随时间变化）感受函数值与自变量的对应关系。",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "学习代入法：将自变量a代入函数解析式，计算得到函数值。先做简单线性函数（如y=2x+1，求x=3时的y值），逐步过渡到二次函数等。",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "注意自变量的取值范围：检查a是否在定义域内，若不在则函数值不存在。通过例题（如y=1/(x-2)，求x=2时的函数值）强化这一意识。",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "进行代入计算练习，重点训练代数运算的准确性，避免符号错误和计算失误。",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "函数值，代入算，自变量值往里换，定义域内才有效，计算细心不出错。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽略自变量的取值范围",
+          "why_happens": "没有检查自变量a是否在函数定义域内，直接代入导致错误或认为函数值存在。",
+          "how_to_avoid": "代入前先确认自变量取值是否使分母不为零、根号内非负等，养成检查定义域的习惯。"
+        },
+        {
+          "pitfall": "代入时计算错误",
+          "why_happens": "代数运算不熟练，如符号错误、乘方顺序错误、分数运算错误。",
+          "how_to_avoid": "代入后分步计算，每一步写清楚，避免跳步，并检查运算结果。"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC01_KP03",
+      "kp_name": "函数的表示方法",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读教材，理解三种表示方法的定义和特点",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "对比分析每种方法的优缺点，并举例说明",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "通过实际案例（如气温变化、路程时间）练习三种方法的转换",
+          "duration_min": 15
+        }
+      ],
+      "memory_trick": {
+        "type": "关键词联想",
+        "content": "解（解析法）列（列表法）图（图象法）—— 解列图，即‘解难题列图表’"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆三种表示方法的适用场景",
+          "why_happens": "对每种方法的优缺点理解不深，只记住名称",
+          "how_to_avoid": "每次遇到函数问题，先问自己：这个场景需要精确计算（解析法）、快速查值（列表法）还是看趋势（图象法）？"
+        },
+        {
+          "pitfall": "认为所有函数都能用解析法表示",
+          "why_happens": "受常见函数例子影响，忽略实际中有些关系无法用简单公式表达",
+          "how_to_avoid": "记住：有些函数关系（如某天每小时的气温）只能用列表或图象表示，解析法不是万能的"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC02_KP01",
+      "kp_name": "一次函数的定义",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾函数概念，明确变量与常量的关系，理解y随x变化而变化的本质",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "对比y=kx+b（k≠0）与y=kx（正比例函数）的异同，强调k≠0是核心条件",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "通过具体实例（如y=2x+1, y=-3x+5）代入x值计算y值，体会k和b对函数值的影响",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "绘制y=2x+1和y=2x的图象，观察两者关系，理解b是直线与y轴交点的纵坐标",
+          "duration_min": 7
+        },
+        {
+          "step": 5,
+          "action": "完成判断练习：给定多个函数表达式，识别哪些是一次函数，并说明理由",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "一次函数形如y=kx加b，k不为零是基础，b可为零或常数，图象直线要记住"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽略k≠0的条件，将y=5（常数函数）误认为一次函数",
+          "why_happens": "只关注形式y=kx+b，未检查k是否为0",
+          "how_to_avoid": "每次判断时先看x的系数，确认k≠0"
+        },
+        {
+          "pitfall": "将y=kx+b与y=kx混淆，认为b必须存在",
+          "why_happens": "对定义理解不全面，以为b不能为0",
+          "how_to_avoid": "记住b可以是0，此时一次函数退化为正比例函数，但仍是一次函数"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC02_KP02",
+      "kp_name": "正比例函数的定义",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾一次函数 y=kx+b，明确 b=0 时即为正比例函数，强调 k≠0",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过实例（如 y=2x, y=-0.5x）理解正比例函数表示两个量的正比例关系",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "画图观察：正比例函数图象必过原点 (0,0)，且是一条直线",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "对比 y=kx 与 y=kx+b（b≠0）的图象，强化过原点的特性",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "正比例，b为零，k非零，过原点"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误认为正比例函数中 k 可以为 0",
+          "why_happens": "忽略定义中 k≠0 的条件，以为 y=0 也是正比例函数",
+          "how_to_avoid": "牢记正比例函数必须满足 k≠0，y=0 是常函数，不是正比例函数"
+        },
+        {
+          "pitfall": "忽略正比例函数图象过原点",
+          "why_happens": "将正比例函数与一般一次函数混淆，忘记 b=0 的特殊性",
+          "how_to_avoid": "每次画图或判断时，先检查是否过 (0,0) 点"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC02_KP03",
+      "kp_name": "一次函数的图象特征",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾一次函数定义 y=kx+b，明确k和b的含义，理解b是纵截距",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "推导横截距：令y=0，解方程0=kx+b得x=-b/k，理解横截距是图象与x轴交点的横坐标",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "在坐标系中画出(0,b)和(-b/k,0)两个点，并用直尺连接两点得到直线，观察图象特征",
+          "duration_min": 7
+        },
+        {
+          "step": 4,
+          "action": "改变k和b的值（如k>0、k<0、b>0、b<0），分别画出图象，总结k和b对直线方向和位置的影响",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "一次函数一条线，两个截距是关键；纵截距b在y轴，横截距负b除以k"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆截距与距离，认为截距一定是正数",
+          "why_happens": "截距是坐标值，可正可负，但学生常误以为截距是长度",
+          "how_to_avoid": "强调截距是交点的坐标，不是距离，画图时注意坐标轴正负方向"
+        },
+        {
+          "pitfall": "计算横截距时符号错误，例如将x=-b/k误写为x=b/k",
+          "why_happens": "解方程0=kx+b时移项符号处理错误",
+          "how_to_avoid": "每次计算时写出完整步骤：0=kx+b → -b=kx → x=-b/k，并代入具体数值验证"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC02_KP04",
+      "kp_name": "一次函数的增减性",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾一次函数定义，明确y=kx+b中k和b的角色",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过画图理解k>0和k<0时图象的升降趋势",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "用具体数值代入验证增减性，如y=2x+1和y=-3x+2",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "总结口诀并对比记忆k与b的作用区别",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "k正增，k负减，图象升降看k值；b管截距别混淆"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽略k的正负对增减性的影响",
+          "why_happens": "只记住公式，没有理解k的符号决定图象走向",
+          "how_to_avoid": "每次分析函数时先标出k的符号，再判断增减"
+        },
+        {
+          "pitfall": "将增减性与截距b混淆",
+          "why_happens": "误以为b影响增减性，或把b当作斜率",
+          "how_to_avoid": "牢记k决定增减，b只决定图象与y轴交点位置"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC03_KP01",
+      "kp_name": "一次函数解决实际问题的步骤",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "理解建模三步骤：设变量、找关系、列表达式，结合教材例题（如行程问题）进行拆解",
+          "duration_min": 15
+        },
+        {
+          "step": 2,
+          "action": "练习待定系数法求解析式：已知两点坐标或一个点加斜率，代入y=kx+b求解",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "画图分析：在坐标系中画出函数图象，标注关键点（交点、截距），联系实际问题解释意义",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "检查自变量取值范围：根据实际背景（如时间非负、人数整数）确定定义域，并验证解的合理性",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "建模三步走：设变量、找关系、列解析；求解析用待定，画图象看交点；别忘了范围，答案才合理"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽略自变量取值范围",
+          "why_happens": "只关注数学表达式，忘记实际问题中的限制条件（如时间、人数、长度不能为负）",
+          "how_to_avoid": "列完解析式后，立即根据题意标注x和y的取值范围，并在最后验证答案是否在范围内"
+        },
+        {
+          "pitfall": "建模时变量关系错误",
+          "why_happens": "未正确理解问题中的等量关系，例如将总费用与单价的关系混淆为加法而非乘法",
+          "how_to_avoid": "先画关系图或列表，明确每个量之间的运算关系（加、减、乘、除），再列方程"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC03_KP02",
+      "kp_name": "方程、不等式与一次函数的关系",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾一次函数y=kx+b的图象（直线）及其与x轴的交点含义，明确交点的横坐标即为方程kx+b=0的解",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "在坐标系中画出具体一次函数图象（如y=2x-4），标出与x轴交点，观察图象在x轴上方的部分对应y>0，即不等式kx+b>0的解集；下方对应y<0",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "通过改变k的正负（如y=-2x+4），重复步骤2，理解k的正负如何影响图象方向，从而影响不等式解集的方向",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "总结数形结合方法：将代数问题（方程、不等式）转化为几何问题（图象交点、区域），并练习从图象读出解集",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "方程解看交点，不等式看上下；k正上大下小，k负上小下大"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆大于0和小于0对应的图象区域",
+          "why_happens": "未明确y>0对应x轴上方，y<0对应x轴下方，或者忘记图象方向受k影响",
+          "how_to_avoid": "每次解题前先画出草图，标出x轴和交点，再根据y的正负确定区域"
+        },
+        {
+          "pitfall": "忽略k的正负对图象方向的影响",
+          "why_happens": "只记忆了k>0时的规律，直接套用到k<0的情况",
+          "how_to_avoid": "养成先判断k正负的习惯，k<0时图象下降，不等式解集方向与k>0相反"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH04_SEC03_KP03",
+      "kp_name": "方案选择问题中的一次函数应用",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾一次函数解析式与图象，复习如何根据条件列函数表达式",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "学习方案选择问题的通用解题框架：设变量→列函数→找交点→分区间比较",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "通过典型例题（如话费套餐、租车方案）练习完整解题流程，重点练习解方程求交点并判断区间",
+          "duration_min": 20
+        },
+        {
+          "step": 4,
+          "action": "总结常见实际限制条件（如人数非负、时间范围），并练习在函数中体现这些条件",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "方案选择三步走：列式、求交、分左右"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "未考虑方案的实际限制条件（如人数必须为正整数、时间不能为负）",
+          "why_happens": "只关注函数表达式，忽略问题背景中的隐含条件",
+          "how_to_avoid": "读题时圈出所有限制词（至少、不超过、整数等），在列函数和讨论区间时始终检查"
+        },
+        {
+          "pitfall": "比较方案时忽略交点意义，直接认为某个方案始终最优",
+          "why_happens": "未理解交点代表两种方案相等，不同区间优劣不同",
+          "how_to_avoid": "先求交点，再画数轴分区间，在每个区间内取特殊值代入比较"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC01_KP01",
+      "kp_name": "二元一次方程的定义",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾一元一次方程的定义，对比引出二元一次方程，明确“二元”和“一次”的含义",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "分析典型例子（如2x+3y=6、x-y=0），逐一判断是否满足两个未知数且未知数项次数为1",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "通过反例（如xy=1、x²+y=5）强化理解，总结判断步骤：先数未知数个数，再看每个未知数的指数",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "归纳一般形式ax+by=c，强调a、b均不为0的条件，并练习将方程化为标准形式",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "二元一次方程，两个未知数；次数都是1，系数不为零"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误将xy=1等含有乘积项的方程视为二元一次方程",
+          "why_happens": "只注意到有两个未知数，忽略了“一次”要求未知数项的次数为1，而xy中x和y的指数之和为2",
+          "how_to_avoid": "判断时先看未知数是否相乘，若相乘则次数为2，不是一次"
+        },
+        {
+          "pitfall": "忽略未知数系数不能为零的条件",
+          "why_happens": "只关注未知数个数和次数，未检查系数是否为零",
+          "how_to_avoid": "在判断或化为一般形式后，确认a和b都不等于0"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC01_KP02",
+      "kp_name": "二元一次方程组的定义",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾二元一次方程的定义，明确“二元”和“一次”的含义",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "阅读教材中方程组的定义，标记关键词：“两个方程”、“相同未知数”、“同时满足”",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "对比正反例：给出3个正确方程组和3个错误方程组（如未知数不同、次数不是一次），判断并说明理由",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "用自己的语言复述定义，并写出一个自创的二元一次方程组",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "关键词联想",
+        "content": "“二元一次方程组”=“两（二）个方程”+“两个（元）未知数”+“一次方”+“组（合在一起求解）”，可简记为“两方两元一次组”"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误将两个不同未知数的方程组合在一起",
+          "why_happens": "只关注“两个方程”而忽略“相同未知数”的条件",
+          "how_to_avoid": "检查每个方程中的未知数是否完全相同（如x和y），若不同则不是同一个方程组"
+        },
+        {
+          "pitfall": "忽略方程组中方程必须为二元一次方程",
+          "why_happens": "只注意“两个方程”而忘记检查每个方程是否满足“二元一次”",
+          "how_to_avoid": "逐一验证每个方程：未知数个数=2，最高次数=1，且分母不含未知数"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC01_KP03",
+      "kp_name": "二元一次方程的解",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾一元一次方程的解的概念，对比引入二元一次方程的解，理解“使方程两边相等”的含义",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过具体方程（如x+y=5）列举多组解（如(1,4),(2,3),(0,5)等），观察并总结解的不唯一性",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "用代入法验证一组值是否为方程的解，强化“代入后等式成立”的判断标准",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "对比二元一次方程的解与二元一次方程组的解，明确“公共解”的概念，避免混淆",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "类比",
+        "content": "二元一次方程的解就像一对舞伴，只要配合（代入）后等式成立就是一对好舞伴，而且有很多对不同的舞伴组合。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误认为二元一次方程只有一组解",
+          "why_happens": "受一元一次方程只有唯一解的影响，未理解二元一次方程有两个自由未知数",
+          "how_to_avoid": "通过列举多个不同解（如x=0,1,2对应y值）直观感受解的不唯一性"
+        },
+        {
+          "pitfall": "混淆方程的解与方程组的解",
+          "why_happens": "对“公共解”概念不清，将单个方程的解直接当作方程组的解",
+          "how_to_avoid": "明确方程组的解必须同时满足所有方程，可用代入法验证是否同时成立"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC01_KP04",
+      "kp_name": "二元一次方程组的解",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾二元一次方程的解的定义，理解“无数个解”的含义，为公共解做铺垫",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过具体例子（如x+y=5和x-y=1），分别列出两个方程的几个解，观察哪一对同时满足两个方程，引出公共解概念",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "用韦恩图或交集思想，将两个方程的解集视为两个集合，公共解即交集，强化“联立求解”的数学思想",
+          "duration_min": 8
+        },
+        {
+          "step": 4,
+          "action": "练习代入检验法：将一对数值分别代入两个方程，确认是否同时成立，并强调必须检验两个方程",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "类比",
+        "content": "把两个方程想象成两条直线，方程组的解就是两条直线的交点——唯一且同时属于两条线。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "将单个方程的解误认为是方程组的解",
+          "why_happens": "只关注了一个方程，忽略了另一个方程的条件",
+          "how_to_avoid": "养成同时代入两个方程检验的习惯，确认两个方程都成立"
+        },
+        {
+          "pitfall": "代入检验时只验证一个方程而忽略另一个",
+          "why_happens": "思维惯性或粗心，认为一个成立另一个自然成立",
+          "how_to_avoid": "检验时按顺序先代第一个，再代第二个，并标记两个结果"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC02_KP01",
+      "kp_name": "代入消元法",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "复习解一元一次方程和代数式表示，确保基础扎实",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "理解代入消元法的核心思想：将二元转化为一元，通过变形和代入消去一个未知数",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "学习标准步骤：①选系数为1或-1的方程变形 ②代入另一方程 ③解一元一次方程 ④回代求另一未知数",
+          "duration_min": 12
+        },
+        {
+          "step": 4,
+          "action": "练习典型例题，注意代入时加括号、化简顺序等细节",
+          "duration_min": 15
+        },
+        {
+          "step": 5,
+          "action": "总结易错点并针对性训练，如符号错误、漏乘等",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "选易变，代入消；解一元，回代求"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "代入时忘记加括号导致符号错误",
+          "why_happens": "变形后的代数式整体代入时，未用括号括起来，导致符号运算出错",
+          "how_to_avoid": "代入时强制先写括号，再展开化简"
+        },
+        {
+          "pitfall": "代入后未化简直接求解",
+          "why_happens": "代入后未合并同类项或去括号，直接进行移项导致计算混乱",
+          "how_to_avoid": "代入后先化简（去括号、合并同类项），再解方程"
+        },
+        {
+          "pitfall": "选错变形方程导致计算复杂",
+          "why_happens": "未优先选择系数为1或-1的方程变形，导致出现分数或复杂表达式",
+          "how_to_avoid": "观察方程组，优先选系数简单（1或-1）的方程进行变形"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC02_KP02",
+      "kp_name": "加减消元法",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "复习等式的基本性质和有理数加减运算，确保基础扎实",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "理解加减消元法的原理：通过加减消去一个未知数，将二元转化为一元",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "练习系数相等或相反数的直接加减消元（基础题3道）",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "学习如何通过乘以最小公倍数将系数化为相等或相反数，并练习（中等题2道）",
+          "duration_min": 12
+        },
+        {
+          "step": 5,
+          "action": "综合练习：含分数系数或需要两步调整的方程组（综合题1道）",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "加减消元看系数，相等相减反相加；不等先乘最小倍，符号一致再相消"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "加减时符号处理错误",
+          "why_happens": "相减时忘记改变减数各项的符号，或相加时漏加负号",
+          "how_to_avoid": "每次加减前，先写出变形后的方程，再逐项对齐计算，并检查符号"
+        },
+        {
+          "pitfall": "未将方程两边同时乘以相同倍数",
+          "why_happens": "只乘了含未知数的项，忽略了常数项",
+          "how_to_avoid": "牢记等式性质：方程两边每一项都要乘以相同倍数，包括常数项"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC02_KP03",
+      "kp_name": "消元方法的选择策略",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾代入消元法和加减消元法的基本步骤，明确各自适用条件",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "通过典型例题（如系数为±1、系数相等或相反、一般系数三种情况）分析选择依据，总结口诀",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "练习混合题型，对比不同选择下的计算复杂度，强化策略意识",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "系数±1用代入，相等相反用加减；系数一般灵活选，结合方法更高效"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "盲目选择方法导致计算复杂",
+          "why_happens": "未观察系数特点，凭习惯或随意选择方法",
+          "how_to_avoid": "先观察方程组中未知数的系数，再根据口诀选择最简便的方法"
+        },
+        {
+          "pitfall": "忽略系数特点强行使用某一种方法",
+          "why_happens": "对两种方法的适用条件理解不深，或只熟悉一种方法",
+          "how_to_avoid": "多练习不同系数类型的方程组，强化条件判断，必要时结合两种方法"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC03_KP01",
+      "kp_name": "列二元一次方程组解应用题的一般步骤",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "熟记六步口诀：审、设、列、解、验、答，并理解每步含义",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "练习审题：从题目中圈出已知量、未知量，并写出等量关系式",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "练习设未知数：根据等量关系设两个未知数，注意单位统一",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "练习列方程组：将等量关系转化为两个方程，并整理为标准形式",
+          "duration_min": 10
+        },
+        {
+          "step": 5,
+          "action": "练习解方程组：用代入法或加减法求解，并写出解",
+          "duration_min": 10
+        },
+        {
+          "step": 6,
+          "action": "练习检验与作答：将解代入原题验证，并写出完整答案（含单位）",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "审设列解验答，六步解题不落下；等量关系是关键，单位统一别忘啦"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "漏掉检验步骤",
+          "why_happens": "认为解出方程组就完成，忽略解是否符合实际意义",
+          "how_to_avoid": "养成习惯，解完后代入原题或实际情境验证"
+        },
+        {
+          "pitfall": "设未知数时单位不统一",
+          "why_happens": "未注意题目中单位（如米和厘米混用）",
+          "how_to_avoid": "设未知数前先统一单位，并在设时注明单位"
+        },
+        {
+          "pitfall": "等量关系找错导致方程错误",
+          "why_happens": "审题不仔细，混淆了数量之间的关系",
+          "how_to_avoid": "用线段图或表格辅助分析，列出所有等量关系后再选两个"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC03_KP02",
+      "kp_name": "常见应用题题型分析",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "分别学习行程、工程、利润、数字四类题型的等量关系模型，并各做1道典型例题",
+          "duration_min": 20
+        },
+        {
+          "step": 2,
+          "action": "用表格对比四类题型的核心公式和设未知数技巧",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "针对每类题型，自己编写一道变式题并求解",
+          "duration_min": 15
+        },
+        {
+          "step": 4,
+          "action": "总结常见错误并归纳避错口诀",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "行程相遇和相向，工程总量设为1，利润差价要记牢，数字拆位乘10加"
+      },
+      "practice_guide": {
+        "base_count": 4,
+        "intermediate_count": 3,
+        "comprehensive_count": 2
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "行程问题中混淆相向和同向运动",
+          "why_happens": "未仔细区分相遇与追及的条件，错误使用等量关系",
+          "how_to_avoid": "画线段图标注运动方向，明确是路程和还是路程差"
+        },
+        {
+          "pitfall": "工程问题中工作效率计算错误",
+          "why_happens": "误将总工作量当作具体数值，或工作效率与时间混淆",
+          "how_to_avoid": "牢记总工作量为1，工作效率=1/工作时间，列方程时注意单位统一"
+        },
+        {
+          "pitfall": "利润问题中忽略成本或折扣",
+          "why_happens": "只关注售价和利润，忘记减去进价或未考虑折扣后的实际售价",
+          "how_to_avoid": "列出进价、售价、折扣、利润四个要素，按公式逐步计算"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH05_SEC03_KP03",
+      "kp_name": "含参问题的解法",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾二元一次方程组的解法（代入消元、加减消元），并练习用含参数的表达式表示解",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "学习“已知解求参数”题型：将解代入原方程，转化为关于参数的方程，解方程即可",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "学习“已知解的情况求参数”题型：先解方程组（用参数表示x和y），再根据条件（如解为正数、无解等）列出不等式或等式，求解参数范围",
+          "duration_min": 12
+        },
+        {
+          "step": 4,
+          "action": "总结解题步骤：①明确条件类型（已知解或解的情况）→②代入或解方程组→③列方程/不等式→④求解并检验合理性",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "含参问题不用怕，代入求解两步跨；解的情况先表示，等式不等式来解它"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "代入解时符号错误",
+          "why_happens": "将解代入方程时，未注意符号（如负号）或代入错误位置",
+          "how_to_avoid": "代入前先写出原方程，逐项替换，并检查符号是否一致"
+        },
+        {
+          "pitfall": "忽略参数对解的影响",
+          "why_happens": "解方程组时未将参数当作已知数处理，导致表达式错误",
+          "how_to_avoid": "解方程组时把参数视为常数，用加减消元或代入消元法正常运算"
+        },
+        {
+          "pitfall": "解不等式时方向判断错误",
+          "why_happens": "在解含参数的不等式时，忘记不等式两边同乘负数要变号",
+          "how_to_avoid": "解不等式时每一步注意系数符号，若乘以负数则立即改变不等号方向"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC01_KP01",
+      "kp_name": "算术平均数的概念与计算",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "理解概念：阅读课本定义，明确算术平均数是总和除以个数，代表平均水平",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "掌握公式：写出公式 x̄ = (x1+x2+...+xn)/n，并标出每个符号含义",
+          "duration_min": 3
+        },
+        {
+          "step": 3,
+          "action": "分步计算练习：先求和再除以个数，每步检查数据是否齐全",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "对比验证：用不同顺序求和或估算平均值来验证结果合理性",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "总和除以个数，平均数就得出"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忘记除以数据个数",
+          "why_happens": "只求和未完成最后一步除法，或误以为总和就是平均数",
+          "how_to_avoid": "计算后默念口诀，检查是否除以了数据个数"
+        },
+        {
+          "pitfall": "计算总和时漏加或重复加数据",
+          "why_happens": "数据较多时注意力分散，或未逐项核对",
+          "how_to_avoid": "用列表或画圈方式逐项标记，求和后反向加一遍验证"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC01_KP02",
+      "kp_name": "加权平均数的概念与计算",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾算术平均数公式，理解“每个数据同等重要”的局限",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过生活实例（如期末成绩中平时、期中、期末权重不同）引出加权平均数的必要性",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "学习加权平均数公式：加权平均数 = (数据1×权重1 + 数据2×权重2 + ...) ÷ (权重1+权重2+...)，并逐项解释符号含义",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "做3道基础计算题，逐步写出分子求和与分母求和的过程",
+          "duration_min": 15
+        },
+        {
+          "step": 5,
+          "action": "总结易错点：权重与数据值对应关系、分母是权重和而非数据个数",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "加权平均不简单，数据权重乘一遍，分子求和分母权，莫忘除尽才算完"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆频数与数据值",
+          "why_happens": "对公式中“数据”和“权重”的角色理解不清，误将频数当作数据代入",
+          "how_to_avoid": "先明确每个数据是什么，权重是什么，并在计算时用不同符号标记"
+        },
+        {
+          "pitfall": "忘记除以总频数",
+          "why_happens": "只计算了加权和，忽略了分母，误以为加权和就是平均数",
+          "how_to_avoid": "每次计算后检查是否除以了权重之和，可默念口诀最后一句"
+        },
+        {
+          "pitfall": "权重分配错误",
+          "why_happens": "题目中权重以百分比或比例给出时，未正确转换为数值或未求和为1",
+          "how_to_avoid": "将百分比转化为小数或分数，并验证所有权重之和是否为1（或总份数）"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC01_KP03",
+      "kp_name": "平均数的意义与局限性",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾算术平均数的定义与计算公式，并计算一组简单数据的平均数（如：3,5,7,9,11）",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过实例理解平均数的意义：它反映一组数据的集中趋势，代表数据的平均水平。例如，班级平均分可以直观比较不同班级的整体水平",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "引入极端值案例：将数据改为3,5,7,9,100，计算平均数并与之前对比，观察极端值对平均数的影响",
+          "duration_min": 8
+        },
+        {
+          "step": 4,
+          "action": "讨论平均数局限性的本质：极端值会拉高或拉低平均数，使其偏离大多数数据的实际水平，因此不能盲目用平均数代表所有数据",
+          "duration_min": 7
+        },
+        {
+          "step": 5,
+          "action": "总结：在分析数据时，平均数需结合中位数、众数等其他统计量，才能更全面反映数据特征",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "比喻",
+        "content": "平均数就像班级的‘平均身高’，姚明来了会拉高平均值，但大多数同学其实没那么高——记住‘极端值会带偏平均数’"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽视极端值对平均数的影响",
+          "why_happens": "只关注平均数的计算，没有分析数据中是否存在过大或过小的值",
+          "how_to_avoid": "计算平均数前先观察数据分布，标记可能的极端值，并思考其对结果的影响"
+        },
+        {
+          "pitfall": "认为平均数能代表所有数据",
+          "why_happens": "过度依赖平均数，忽略了数据的个体差异和分布情况",
+          "how_to_avoid": "养成习惯：在得出平均数后，追问‘这个平均数能代表大多数数据吗？’并查看中位数或众数进行对比"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC02_KP01",
+      "kp_name": "中位数的定义与计算",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "理解中位数定义：排序后处于中间位置的数，并区分奇偶情况",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "练习排序：将一组无序数据按从小到大排序",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "奇数个数据时，直接取第(n+1)/2个数作为中位数",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "偶数个数据时，取中间两个数的平均值作为中位数",
+          "duration_min": 5
+        },
+        {
+          "step": 5,
+          "action": "对比中位数与平均数，理解中位数不受极端值影响的特点",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "先排序，后找中；奇数个，取中间；偶数个，两平均"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "未排序直接找中间数",
+          "why_happens": "忽略中位数定义中的排序步骤，直接按原始顺序取中间位置",
+          "how_to_avoid": "每次计算前先默念“先排序”，养成排序习惯"
+        },
+        {
+          "pitfall": "混淆奇偶情况下的计算方法",
+          "why_happens": "未明确数据个数是奇数还是偶数，或记错公式",
+          "how_to_avoid": "先数数据个数，奇偶分开处理，可画圈标记中间位置"
+        },
+        {
+          "pitfall": "将中位数误认为众数",
+          "why_happens": "混淆中位数与众数的概念，看到重复数据就以为是中位数",
+          "how_to_avoid": "明确中位数是位置平均数，众数是出现次数最多的数，对比记忆"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC02_KP02",
+      "kp_name": "众数的定义与识别",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读定义：众数是一组数据中出现次数最多的数据，并记住关键点：可以有一个、多个或没有众数",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过实例练习：给定一组数据（如2,3,3,5,5,5），找出众数，并尝试构造有多个众数和没有众数的例子",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "对比区分：将众数与中位数、平均数进行对比，用表格列出三者的定义、特点和适用场景",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "总结易错点：整理典型错误（如误认为众数唯一、混淆中位数、忽略相同次数情况），并写出避免方法",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "众数就是次数王，出现最多它来当；一个多个或没有，别忘次数要一样"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误认为众数必须唯一",
+          "why_happens": "受日常语言中“最”字影响，认为最多只能有一个",
+          "how_to_avoid": "牢记定义：出现次数最多的数据可能有多个，只要次数相同且最多，都是众数"
+        },
+        {
+          "pitfall": "将众数与中位数混淆",
+          "why_happens": "两者都是描述集中趋势的统计量，且名称相近",
+          "how_to_avoid": "用关键词区分：众数看“次数”，中位数看“位置”；练习时先判断是找出现次数最多还是中间位置"
+        },
+        {
+          "pitfall": "忽略数据中出现次数相同的情况",
+          "why_happens": "只关注出现次数最多的一个数据，未检查是否有其他数据出现次数相同",
+          "how_to_avoid": "找出最大次数后，检查所有数据中是否有多个数据达到该次数，若有则全部列出"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC02_KP03",
+      "kp_name": "平均数、中位数与众数的选择",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾平均数、中位数、众数的定义和计算方法，并举例说明",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "通过具体数据集（含极端值、无极端值、偏态分布）分别计算三个统计量，观察差异",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "分析不同场景下选择哪个统计量更合理，总结选择原则",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "做3道选择题和2道简答题，练习根据数据特点和分析目的选择合适的统计量",
+          "duration_min": 15
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "无偏精确用平均，有偏极端选中位，常见典型找众数"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "不考虑数据特点盲目选择平均数",
+          "why_happens": "习惯性使用平均数，忽略极端值影响",
+          "how_to_avoid": "先观察数据是否有极端值或偏态，再决定是否用平均数"
+        },
+        {
+          "pitfall": "混淆中位数与众数的适用场景",
+          "why_happens": "对两者定义理解不深，误以为中位数反映最常见值",
+          "how_to_avoid": "明确中位数反映中间位置，众数反映出现次数最多的值"
+        },
+        {
+          "pitfall": "忽略极端值对平均数的影响",
+          "why_happens": "计算平均数时未检查数据中是否有异常大或小的值",
+          "how_to_avoid": "计算前先排序数据，标记极端值，评估是否应使用中位数"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC03_KP01",
+      "kp_name": "方差的概念与公式",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "理解方差定义：先计算数据的平均数，再求每个数据与平均数之差的平方，最后取这些平方的平均数",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "记忆并书写方差公式 s² = [(x₁-x̄)² + (x₂-x̄)² + ... + (xₙ-x̄)²] / n，注意每个符号的含义",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "通过一个简单例子（如数据2,4,6）手动计算方差，分步完成：求平均数→求各差平方→求和→除以n",
+          "duration_min": 12
+        },
+        {
+          "step": 4,
+          "action": "对比方差与标准差的关系：标准差是方差的算术平方根，理解两者区别",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "先平均，再求差，平方求和除以n，方差大小看离散"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忘记平方差，直接计算差值的平均数",
+          "why_happens": "对方差定义理解不深，误以为方差是差的平均值",
+          "how_to_avoid": "牢记方差公式中每个差必须平方，并反复练习分步计算"
+        },
+        {
+          "pitfall": "混淆方差与标准差",
+          "why_happens": "两者概念相近，但标准差是方差的平方根",
+          "how_to_avoid": "对比记忆：方差是平方后的平均值，标准差是开方后的值"
+        },
+        {
+          "pitfall": "计算时遗漏除以n",
+          "why_happens": "只计算了平方和，忘记最后一步取平均",
+          "how_to_avoid": "严格按照公式步骤：求平均→求差平方→求和→除以n，每步检查"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC03_KP02",
+      "kp_name": "方差的意义与应用",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾方差公式，并用自己的话解释方差衡量的是数据偏离平均数的程度",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过两个具体数据集（如班级成绩）计算方差，观察方差大小与数据波动的关系",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "分析实际案例（如产品质量、运动员成绩），讨论方差大小代表的意义",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "对比两组数据，练习根据方差判断稳定性，并解释结论",
+          "duration_min": 8
+        },
+        {
+          "step": 5,
+          "action": "总结方差应用的常见场景，并完成一道综合应用题",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "方差大，波动大，不稳定；方差小，波动小，更稳定"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误认为方差越大数据越稳定",
+          "why_happens": "混淆了方差大小与稳定性的关系，缺乏对概念本质的理解",
+          "how_to_avoid": "牢记口诀：方差大→波动大→不稳定；方差小→波动小→稳定"
+        },
+        {
+          "pitfall": "忽略方差与平均数的关系",
+          "why_happens": "只关注方差数值，未意识到方差是基于平均数计算的偏差平方和",
+          "how_to_avoid": "每次计算方差前先算出平均数，并理解每个数据与平均数的差异"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH06_SEC03_KP03",
+      "kp_name": "标准差的概念与计算",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾方差公式，明确方差是各数据与平均数差的平方的平均数",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "理解标准差是方差的算术平方根，记作s=√s²，并对比方差与标准差的单位差异",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "通过一个简单数据集（如3,4,5）手动计算平均数、方差，再开平方得到标准差，分步练习",
+          "duration_min": 12
+        },
+        {
+          "step": 4,
+          "action": "练习多个不同数据集的标准差计算，注意先求方差再开平方的步骤顺序",
+          "duration_min": 15
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "方差平均差平方，标准差是它开方；单位相同更直观，波动大小看数值"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆标准差与方差",
+          "why_happens": "对概念理解不深，误将方差当作标准差",
+          "how_to_avoid": "牢记标准差是方差的算术平方根，计算时先求方差再开平方"
+        },
+        {
+          "pitfall": "计算标准差时忘记开平方",
+          "why_happens": "步骤遗漏，只算出方差就结束",
+          "how_to_avoid": "养成检查习惯，在方差结果后加上开平方步骤，并标注s=√s²"
+        },
+        {
+          "pitfall": "单位换算错误",
+          "why_happens": "未注意标准差与原数据单位相同，而方差单位是原单位的平方",
+          "how_to_avoid": "明确单位关系：方差单位平方，标准差单位与原数据一致，计算后检查单位是否合理"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC01_KP01",
+      "kp_name": "命题的定义与结构",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读教材中命题的定义，并用一句话复述，确保理解“判断”一词的含义",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "学习命题的“如果……那么……”结构，用不同颜色的笔标出题设和结论",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "将5个日常语句（如“如果下雨，那么地面会湿”）改写成标准形式，并指出题设和结论",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "区分命题与非命题：给出10个句子，判断哪些是命题，哪些不是，并说明理由",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "命题判断一句话，题设结论两分家；如果那么是框架，真假对错要明察"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆命题与一般陈述句",
+          "why_happens": "没有抓住命题必须能判断真假的本质，误将疑问句、感叹句、祈使句也当作命题",
+          "how_to_avoid": "判断一个句子是否为命题时，先问自己：这句话能判断是对还是错吗？如果不能，就不是命题"
+        },
+        {
+          "pitfall": "无法正确区分题设和结论",
+          "why_happens": "对“如果……那么……”结构不熟悉，或者句子没有明确写出“如果”“那么”时不会转换",
+          "how_to_avoid": "先尝试将命题改写成“如果……那么……”的形式，再根据“如果”后为题设、“那么”后为结论来区分"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC01_KP02",
+      "kp_name": "真命题与假命题",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读教材定义，理解真命题和假命题的核心区别：真命题需证明，假命题只需一个反例",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "分析3个典型命题，判断真假并说明理由（如：对顶角相等、相等的角是对顶角）",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "练习举反例：针对假命题，找出一个符合题设但不满足结论的例子",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "总结判断步骤：①找出题设和结论 ②思考题设下结论是否必然成立 ③若必然成立则为真，否则为假",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "对比口诀",
+        "content": "真命题，需证明，步步推理才放心；假命题，反例破，一个例子就推翻。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误将假命题当作真命题",
+          "why_happens": "只凭直觉或常见例子，没有严格检验是否所有情况都成立",
+          "how_to_avoid": "养成找反例的习惯，思考“有没有例外？”"
+        },
+        {
+          "pitfall": "举反例时不符合题设条件",
+          "why_happens": "没有仔细分析命题的题设，举的例子不满足题设",
+          "how_to_avoid": "先明确题设是什么，再构造满足题设但不满足结论的例子"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC01_KP03",
+      "kp_name": "证明与基本事实（公理）",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读教材中关于证明的定义和公理的概念，理解证明是依据已知条件、定义、公理、定理进行推理的过程，公理是无需证明的基本事实。",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "分析一个简单的证明例题（如对顶角相等），逐句标注每一步推理的依据（公理、定义或定理），体会证明的严谨性。",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "对比公理与定理的区别：公理是公认的、无需证明的基本事实；定理是经过证明的真命题。列举3个常见公理（如两点确定一条直线）和3个定理（如三角形内角和定理）。",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "自己尝试写一个简单命题的证明过程（如“若a=b，则a+c=b+c”），并检查每一步是否都有依据，避免循环论证。",
+          "duration_min": 15
+        }
+      ],
+      "memory_trick": {
+        "type": "类比",
+        "content": "把证明想象成“数学法庭”：已知条件是“证据”，公理是“法律条文”，定理是“判例”，每一步推理都要引用对应的“法律条文”或“判例”，不能凭空断言。公理就像“宪法”，是最高依据，无需再证明。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "证明过程中缺少依据",
+          "why_happens": "学生凭直觉推理，没有意识到每一步都需要引用定义、公理或定理作为支撑。",
+          "how_to_avoid": "在写证明时，每写一个结论，就在旁边用括号注明依据（如“根据等量代换”），养成标注习惯。"
+        },
+        {
+          "pitfall": "混淆公理与定理",
+          "why_happens": "对公理和定理的定义理解不深，误以为所有数学结论都需要证明。",
+          "how_to_avoid": "制作一个表格，列出学过的公理和定理，并标注“公理”或“定理”，反复对比记忆。"
+        },
+        {
+          "pitfall": "循环论证",
+          "why_happens": "在证明过程中，用待证明的结论本身作为依据，导致逻辑错误。",
+          "how_to_avoid": "在写证明前，先明确已知条件和要证明的结论，确保每一步依据都是已知条件、公理或已证明的定理，而不是待证结论。"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC02_KP01",
+      "kp_name": "同位角相等判定平行线",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾角的概念和相交线，明确截线、被截直线、同位角的位置关系",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "观察典型图形，练习标记同位角，理解“F”形特征",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "通过动态演示或动手画图，理解同位角相等时两直线平行的几何直观",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "对比同位角与内错角、同旁内角的区别，强化识别",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "图像联想",
+        "content": "同位角像字母“F”，记住“F相等，线平行”"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆同位角与内错角",
+          "why_happens": "对截线、被截直线关系不清晰，只看角度位置而忽略相对位置",
+          "how_to_avoid": "先标出截线，再判断两角是否在截线的同侧、被截直线的同方向"
+        },
+        {
+          "pitfall": "忽略截线的作用",
+          "why_happens": "只关注两条直线，忘记第三条截线是判定同位角的前提",
+          "how_to_avoid": "每次判定前先找出截线，确认两角是由同一条截线所截"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC02_KP02",
+      "kp_name": "内错角相等判定平行线",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "观察图形，理解内错角的位置特征：在截线两侧，被截线之间，形如“Z”字",
+          "duration_min": 8
+        },
+        {
+          "step": 2,
+          "action": "动手画图：画出两条直线被第三条直线所截的图形，标出内错角，并测量验证内错角相等时两直线平行",
+          "duration_min": 12
+        },
+        {
+          "step": 3,
+          "action": "对比学习：将内错角判定与同位角判定、同旁内角判定进行对比，总结异同",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "完成基础练习题，强化内错角识别与判定应用",
+          "duration_min": 15
+        }
+      ],
+      "memory_trick": {
+        "type": "形象联想",
+        "content": "内错角像字母“Z”，内错角相等时两条直线平行，记住“Z相等，线平行”"
+      },
+      "practice_guide": {
+        "base_count": 5,
+        "intermediate_count": 3,
+        "comprehensive_count": 2
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "误将内错角当作同位角",
+          "why_happens": "对两种角的位置特征混淆，没有区分“在截线同侧”与“在截线两侧”",
+          "how_to_avoid": "先确定截线，再观察两个角相对于截线的位置：同位角在截线同侧，内错角在截线两侧"
+        },
+        {
+          "pitfall": "忽略内错角的位置特征",
+          "why_happens": "只关注角度相等，没有检查角是否满足内错角的位置关系",
+          "how_to_avoid": "每次判定前先画出图形，标出截线和被截线，确认两个角是内错角后再使用判定定理"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC02_KP03",
+      "kp_name": "同旁内角互补判定平行线",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾互补角概念，明确和为180°",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "在截线图中标出同旁内角位置，理解“同侧、之间”的含义",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "通过动态演示或画图，观察同旁内角互补时两直线平行，不互补时不平行",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "对比同位角相等、内错角相等与同旁内角互补三种判定方法，总结异同",
+          "duration_min": 8
+        },
+        {
+          "step": 5,
+          "action": "完成3道基础识别题，强化图形中同旁内角的识别",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "同旁内角补一补，两线平行不用赌"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆同旁内角与同位角",
+          "why_happens": "两者都在截线同侧，位置相似，容易混淆",
+          "how_to_avoid": "记住同旁内角在被截线之间（像“U”形），同位角在被截线同侧且同方向（像“F”形）"
+        },
+        {
+          "pitfall": "忘记互补条件，误认为相等",
+          "why_happens": "受同位角、内错角判定条件影响，习惯性认为相等才平行",
+          "how_to_avoid": "每次判定前先确认角的关系：同旁内角必须和为180°，而非相等"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC02_KP04",
+      "kp_name": "平行线传递性判定",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "理解传递性含义：若a∥c且b∥c，则a∥b。用生活类比（如三人站队，都对齐同一人则彼此对齐）帮助理解。",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "画图验证：在纸上画三条直线，标出a、b、c，用三角尺和直尺验证a∥c且b∥c时a∥b是否成立。",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "对比平行线判定定理（同位角相等、内错角相等、同旁内角互补），明确传递性是间接判定，无需角度测量。",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "练习简单推理题：如“已知a∥c，b∥c，求证a∥b”，写出完整推理步骤。",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "类比",
+        "content": "把平行线想象成“好朋友”：如果A和C是好朋友，B和C也是好朋友，那么A和B自然也是好朋友（传递友谊）。"
+      },
+      "practice_guide": {
+        "base_count": 2,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽略前提条件，直接认为任意两条平行线都互相平行。",
+          "why_happens": "没有牢记传递性要求两条直线都与同一条直线平行。",
+          "how_to_avoid": "每次使用前先写出“因为a∥c，b∥c”，再写“所以a∥b”，养成检查前提的习惯。"
+        },
+        {
+          "pitfall": "混淆平行线的传递性与垂直的传递性（垂直不具有传递性）。",
+          "why_happens": "将不同几何关系的性质混淆。",
+          "how_to_avoid": "对比记忆：平行有传递性，垂直没有传递性，用反例（a⊥c，b⊥c，但a∥b）强化区分。"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC03_KP01",
+      "kp_name": "平行线的性质1：同位角相等",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾平行线定义和同位角概念，明确两条直线平行是前提",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过几何画板或手绘图形，观察平行线被截时同位角相等的动态过程",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "用符号语言和文字语言分别表述性质，并标注图形中的对应角",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "完成3道基础判断题，强化“平行”是性质成立的必要条件",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "两线平行同位角，位置相同大小等"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆同位角与内错角",
+          "why_happens": "对同位角、内错角、同旁内角的位置特征区分不清",
+          "how_to_avoid": "用“F”形辅助记忆同位角，每次先判断角的位置关系再应用性质"
+        },
+        {
+          "pitfall": "未明确平行条件直接应用性质",
+          "why_happens": "忽略题目中是否给出两直线平行的条件，或误以为任意两直线被截同位角都相等",
+          "how_to_avoid": "解题时先圈出“平行”条件，再写“因为a∥b，所以∠1=∠2（同位角相等）”"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC03_KP02",
+      "kp_name": "平行线的性质2：内错角相等",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾内错角定义，在两条平行线被截的图中标出内错角位置",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过折叠或旋转图形直观感受内错角相等（可用纸片或几何画板）",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "结合同位角相等性质，推导内错角相等（因为同位角相等且对顶角相等）",
+          "duration_min": 7
+        },
+        {
+          "step": 4,
+          "action": "完成3道基础题：直接识别内错角并求角度",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "平行线间内错角，Z字形状要记牢，相等关系直接套，缺了平行别乱叫"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆内错角与同位角",
+          "why_happens": "对两种角的位置特征记忆模糊，未区分Z形与F形",
+          "how_to_avoid": "画图时用不同颜色标出内错角（Z形）和同位角（F形），反复对比"
+        },
+        {
+          "pitfall": "忽略平行条件直接使用性质",
+          "why_happens": "做题时只看到内错角形状，忘记前提是两直线平行",
+          "how_to_avoid": "每次使用性质前先口头确认“因为平行，所以内错角相等”，养成检查条件习惯"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC03_KP03",
+      "kp_name": "平行线的性质3：同旁内角互补",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾平行线定义及同旁内角概念，画出两条平行线被第三条直线所截的图形，标出所有8个角，并找出同旁内角的位置（如∠3和∠5、∠4和∠6）",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过直观演示或折纸实验，观察当两直线平行时，同旁内角之和为180°；对比不平行时的情况，加深理解互补关系的唯一性",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "利用已知平行线性质（同位角相等、内错角相等）推导同旁内角互补：例如由∠3=∠7（同位角）且∠7+∠5=180°（邻补角），得∠3+∠5=180°",
+          "duration_min": 7
+        },
+        {
+          "step": 4,
+          "action": "做3道基础题：直接给出平行线及角度，求同旁内角的度数；再完成2道中等题：结合方程思想，设未知数求解",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "两线平行被截断，同旁内角补成半（和为180°）"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆互补与相等，误以为同旁内角相等",
+          "why_happens": "与同位角、内错角的性质混淆，未区分不同位置角的和差关系",
+          "how_to_avoid": "牢记口诀：同位内错皆相等，同旁内角才互补；做题前先标出角的位置关系"
+        },
+        {
+          "pitfall": "忘记同旁内角的位置关系，找错角",
+          "why_happens": "对截线两侧、平行线之间的位置不熟悉，容易将内错角或同位角误认为同旁内角",
+          "how_to_avoid": "画图时用不同颜色标记同旁内角，练习时先说出“哪两条线平行，哪条是截线”，再定位角"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH07_SEC03_KP04",
+      "kp_name": "平行线的判定与性质的区别",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "画出判定与性质的双向箭头图，标注条件与结论",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "用具体例题（如已知∠1=∠2，证a∥b）对比判定与性质的应用方向",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "总结口诀：判定由角推线，性质由线推角",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "判定由角推线，性质由线推角，方向别颠倒"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "在证明中把判定当性质用",
+          "why_happens": "混淆了条件与结论，未分清是由角推线还是由线推角",
+          "how_to_avoid": "先明确题目要求：是证平行还是利用平行，再选择对应定理"
+        },
+        {
+          "pitfall": "写证明步骤时方向错误",
+          "why_happens": "未仔细分析已知条件，直接套用定理",
+          "how_to_avoid": "每次证明前先标出已知条件，判断是角的关系还是线的关系，再决定用判定还是性质"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC01_KP01",
+      "kp_name": "三角形的定义与表示",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读教材中三角形的定义，圈出关键词“不在同一直线上”“首尾顺次相接”",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "用纸笔画出三种图形：正确三角形、三条线段在同一直线上、三条线段未首尾相接，对比理解定义",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "记忆三角形表示法：符号“△”+顶点字母（如△ABC），并练习书写5个不同三角形",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "口头复述定义和表示法，检查自己能否准确说出两个关键条件",
+          "duration_min": 2
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "三线不共线，首尾要相连，三角记作△，顶点字母填"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽略“不在同一直线上”的条件",
+          "why_happens": "只记住三条线段，未注意位置关系",
+          "how_to_avoid": "每次判断三角形时，先检查三条线段是否共线"
+        },
+        {
+          "pitfall": "误认为三条线段任意连接即可构成三角形",
+          "why_happens": "忽略“首尾顺次相接”的要求",
+          "how_to_avoid": "画图时强调端点必须依次连接，不能交叉或断开"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC01_KP02",
+      "kp_name": "三角形的边与角",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "画一个任意三角形，标出三个顶点A、B、C，并写出每条边对应的顶点（如边BC对应顶点A）",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "用口诀记忆边与顶点的对应关系：'顶点对边，边对顶点'，并反复默念",
+          "duration_min": 3
+        },
+        {
+          "step": 3,
+          "action": "做3道基础题：给定三角形顶点，写出所有边和角的名称",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "区分内角与外角：在三角形图上标出内角（内部）和外角（延长线），并对比记忆",
+          "duration_min": 4
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "顶点对边，边对顶点；内角在里，外角在外延"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆三角形的内角与外角",
+          "why_happens": "未明确内角是三角形内部角，外角是边延长线与邻边形成的角",
+          "how_to_avoid": "画图时用不同颜色标出内角（红色）和外角（蓝色），并记住外角在三角形外部"
+        },
+        {
+          "pitfall": "误将边与顶点对应错误",
+          "why_happens": "未建立顶点与对边的固定关系，如顶点A所对的边是BC，而非AB或AC",
+          "how_to_avoid": "每次读题时先标出顶点，然后口头说出'顶点A对边BC'，反复练习直到熟练"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC01_KP03",
+      "kp_name": "三角形的分类",
+      "method_type": "记忆型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "阅读教材或笔记，理解按角分类（锐角、直角、钝角）和按边分类（不等边、等腰、等边）的定义，并画出分类树状图",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "用口诀记忆各类三角形的特征，并反复默念3遍",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "完成基础练习题：根据给定角度或边长判断三角形类型（至少5题）",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "针对典型错误（如混淆等腰与等边）进行辨析练习，并总结易错点",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "按角分：锐角全锐，直角一个，钝角一个；按边分：不等三边，等腰两边，等边三边。"
+      },
+      "practice_guide": {
+        "base_count": 5,
+        "intermediate_count": 3,
+        "comprehensive_count": 2
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆等腰三角形与等边三角形的关系",
+          "why_happens": "未理解等边三角形是等腰三角形的特殊情形，误认为两者互斥",
+          "how_to_avoid": "记住：等边三角形一定是等腰三角形，但等腰三角形不一定是等边三角形"
+        },
+        {
+          "pitfall": "误认为直角三角形一定是等腰的",
+          "why_happens": "受常见等腰直角三角形例子影响，忽略一般直角三角形",
+          "how_to_avoid": "明确直角三角形的定义仅要求一个直角，不限制边的关系"
+        },
+        {
+          "pitfall": "忽略三角形内角和为180°对分类的影响",
+          "why_happens": "分类时只关注给定条件，未利用内角和验证合理性",
+          "how_to_avoid": "分类时先检查内角和是否为180°，再根据角或边特征归类"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC02_KP01",
+      "kp_name": "三角形三边关系定理",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "用三根不同长度的吸管或纸条，尝试拼三角形，观察哪些组合能成功，哪些不能，并记录边长数据",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "从成功和失败的例子中，归纳出“任意两边之和大于第三边”的规律，并用不等式表示",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "通过移项推导出“任意两边之差小于第三边”，理解两个条件等价",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "做3道基础判断题：给定三边长，判断能否构成三角形，并写出判断过程",
+          "duration_min": 7
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "三角三边有规矩，两边之和大于三，两边之差小于三，缺一不可成三角"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "只检查两边之和大于第三边，忽略两边之差小于第三边",
+          "why_happens": "对定理理解不完整，只记住一半条件",
+          "how_to_avoid": "每次判断时，先写出三个不等式（a+b>c, a+c>b, b+c>a），再检查是否都成立"
+        },
+        {
+          "pitfall": "误认为任意两边之和等于第三边也能构成三角形",
+          "why_happens": "直观上认为刚好能连上，但实际三点共线，不是三角形",
+          "how_to_avoid": "用吸管或纸条实际演示等于的情况，观察三点共线，强化“大于”而非“大于等于”"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC02_KP02",
+      "kp_name": "判断三条线段能否组成三角形",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾三角形三边关系定理：任意两边之和大于第三边，任意两边之差小于第三边。",
+          "duration_min": 3
+        },
+        {
+          "step": 2,
+          "action": "学习判断步骤：先将三条线段从小到大排序（a≤b≤c），然后验证 a + b > c 和 c - a < b。",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "练习3道基础题：直接给出三条线段长度，按步骤判断。",
+          "duration_min": 8
+        },
+        {
+          "step": 4,
+          "action": "练习2道中等题：题目中线段长度含小数或分数，需先比较大小再判断。",
+          "duration_min": 8
+        },
+        {
+          "step": 5,
+          "action": "练习1道综合题：结合等腰三角形或周长条件，判断能否构成三角形。",
+          "duration_min": 6
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "三边组成三角形，两边之和大于三，两边之差小于三，排序验证最保险。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "只验证一组两边之和，未检查所有组合。",
+          "why_happens": "认为只要一组和大于第三边即可，忽略了其他组合。",
+          "how_to_avoid": "养成排序后验证最短两边之和大于最长边的习惯，同时验证最长边与最短边之差小于第三边。"
+        },
+        {
+          "pitfall": "忽略两边之差的条件，导致错误判断。",
+          "why_happens": "只记得两边之和大于第三边，忘记差的条件。",
+          "how_to_avoid": "牢记定理完整表述：任意两边之和大于第三边，任意两边之差小于第三边。"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC02_KP03",
+      "kp_name": "求第三边的取值范围",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾三角形三边关系定理：任意两边之和大于第三边，任意两边之差小于第三边",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "理解并记忆公式：设已知两边为a和b（a≤b），则第三边c满足 b - a < c < a + b",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "通过具体数值例题（如a=3, b=5）练习写出c的范围，并验证每个边界是否成立",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "练习不同顺序的已知边（如a=5, b=3）时，先排序再套用公式",
+          "duration_min": 7
+        },
+        {
+          "step": 5,
+          "action": "总结易错点并做针对性练习：注意不等式方向、两边之差条件、大小排序",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "两边之差小于第三边，两边之和大于第三边，小边在前大边在后，范围就在中间走"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽略两边之差的条件，只考虑和的范围",
+          "why_happens": "只记住“两边之和大于第三边”，忘记“两边之差小于第三边”",
+          "how_to_avoid": "每次写范围时，先写差再写和，形成固定步骤"
+        },
+        {
+          "pitfall": "误将不等式方向写反，如c > a + b",
+          "why_happens": "混淆了“大于”和“小于”的方向",
+          "how_to_avoid": "用具体数字验证：若a=3, b=5，则c=9时3+5<9不成立，所以c必须小于8"
+        },
+        {
+          "pitfall": "未考虑a和b的大小关系，导致范围错误",
+          "why_happens": "直接套用a-b作为下界，当a<b时a-b为负数，导致下界错误",
+          "how_to_avoid": "先比较a和b的大小，确保用较大的减较小的，或直接使用|a-b|"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC02_KP04",
+      "kp_name": "三角形的周长",
+      "method_type": "运算型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾三角形三边关系定理，确认任意两边之和大于第三边，为周长计算打下基础",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "理解周长定义：三角形周长等于三边长度之和，即周长 = a + b + c，明确a、b、c分别代表三条边长",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "通过具体数值例题练习直接计算周长，如已知三边分别为3cm、4cm、5cm，求周长",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "练习已知两边和周长求第三边的逆向问题，如周长=12cm，两边分别为4cm和5cm，求第三边",
+          "duration_min": 10
+        },
+        {
+          "step": 5,
+          "action": "结合实际问题（如围栏长度、边框材料计算）进行应用练习，强化周长概念",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "三角形周长不用愁，三边相加就足够"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆周长与面积的概念",
+          "why_happens": "周长和面积都是三角形的基本度量，但周长是长度之和，面积是平面大小，学生容易混淆",
+          "how_to_avoid": "牢记周长是“一圈的长度”，面积是“表面的大小”，通过画图标注区分"
+        },
+        {
+          "pitfall": "计算时遗漏某一边长",
+          "why_happens": "三角形有三条边，计算周长时容易只加两条边或漏掉一条边",
+          "how_to_avoid": "列出三边长度并逐一相加，养成检查三边是否都加上的习惯"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC03_KP01",
+      "kp_name": "三角形内角和定理",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "通过撕角拼角实验，直观感受三个内角拼成一个平角（180°）",
+          "duration_min": 10
+        },
+        {
+          "step": 2,
+          "action": "学习平行线法证明：过顶点作底边平行线，利用同位角、内错角转化",
+          "duration_min": 15
+        },
+        {
+          "step": 3,
+          "action": "练习已知两角求第三角的基础题（如：∠A=50°, ∠B=70°, 求∠C）",
+          "duration_min": 10
+        },
+        {
+          "step": 4,
+          "action": "应用定理解决含未知数的方程题（如：∠A=x, ∠B=2x, ∠C=3x，求各角）",
+          "duration_min": 10
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "三角内角和，永远一百八；两角已知了，第三减一下。"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忘记内角和为180°而误用其他数值（如360°）",
+          "why_happens": "与四边形内角和混淆，或粗心记错",
+          "how_to_avoid": "每次计算前默念口诀，并画图标注三个角"
+        },
+        {
+          "pitfall": "在非三角形图形中错误应用该定理",
+          "why_happens": "未仔细识别图形是否为三角形，或误将多边形拆解后的角当作三角形内角",
+          "how_to_avoid": "先确认图形由三条线段首尾相连围成，再使用定理"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC03_KP02",
+      "kp_name": "三角形外角性质",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "复习三角形内角和定理和邻补角概念，画图标注内角和外角的位置关系",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "通过几何画板或手绘，延长三角形一边，观察外角与不相邻内角的数量关系，尝试用内角和与邻补角推导性质",
+          "duration_min": 10
+        },
+        {
+          "step": 3,
+          "action": "完成3道基础题：直接利用外角性质求角度（如已知两个内角求外角）",
+          "duration_min": 8
+        },
+        {
+          "step": 4,
+          "action": "完成2道中等题：结合平行线或角平分线综合应用外角性质",
+          "duration_min": 10
+        },
+        {
+          "step": 5,
+          "action": "总结易错点，用思维导图梳理外角性质与内角和定理的联系",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "外角等于两内和，不相邻的要记牢；延长一边得外角，邻补内角别混淆"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆外角与相邻内角的关系，错误认为外角等于所有内角之和",
+          "why_happens": "未准确理解外角定义，误将相邻内角也纳入求和",
+          "how_to_avoid": "先明确外角是由延长一边所得，只与不相邻的两个内角有关，画图标注不相邻内角"
+        },
+        {
+          "pitfall": "在复杂图形中找错外角对应的不相邻内角",
+          "why_happens": "图形中多个三角形重叠，外角位置识别不清",
+          "how_to_avoid": "先单独画出包含外角的三角形，用不同颜色标记外角及其不相邻内角"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC03_KP03",
+      "kp_name": "三角形外角大于不相邻内角",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾三角形外角性质：外角等于与它不相邻的两个内角之和，理解这是不等式的基础",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "利用几何画板或手绘图形，观察外角与不相邻内角的大小关系，验证“大于”的直观感受",
+          "duration_min": 8
+        },
+        {
+          "step": 3,
+          "action": "推导证明：由外角=内角1+内角2，且内角>0，得外角>内角1且外角>内角2",
+          "duration_min": 7
+        },
+        {
+          "step": 4,
+          "action": "对比记忆：外角大于不相邻内角，但外角不一定大于相邻内角（相邻内角是补角关系）",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "外角大，不相邻；相邻角，是补角"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "忽略“不相邻”条件，错误地认为外角大于所有内角",
+          "why_happens": "记忆不精确，只记住“外角大于内角”而遗漏限定词",
+          "how_to_avoid": "每次使用前先标出外角的相邻内角，提醒自己只比较不相邻的角"
+        },
+        {
+          "pitfall": "误以为外角大于任意一个内角（包括相邻内角）",
+          "why_happens": "混淆了外角与内角的大小关系，未考虑相邻内角是补角",
+          "how_to_avoid": "画图标注相邻内角，并记住相邻内角+外角=180°，所以外角不一定大于相邻内角"
+        }
+      ]
+    },
+    {
+      "kp_id": "MATH8_CH08_SEC03_KP04",
+      "kp_name": "直角三角形锐角互余",
+      "method_type": "理解型",
+      "learning_steps": [
+        {
+          "step": 1,
+          "action": "回顾三角形内角和定理（180°）和直角定义（90°），推导锐角互余关系",
+          "duration_min": 5
+        },
+        {
+          "step": 2,
+          "action": "画一个直角三角形，标出直角和两个锐角，用代数式表示∠A+∠B=90°",
+          "duration_min": 5
+        },
+        {
+          "step": 3,
+          "action": "练习已知一个锐角求另一个锐角的简单计算（如已知30°求60°）",
+          "duration_min": 5
+        },
+        {
+          "step": 4,
+          "action": "通过实例判断三角形是否为直角三角形（若两角互余则第三角为直角）",
+          "duration_min": 5
+        }
+      ],
+      "memory_trick": {
+        "type": "口诀",
+        "content": "直角三角两锐角，相加等于九十度"
+      },
+      "practice_guide": {
+        "base_count": 3,
+        "intermediate_count": 2,
+        "comprehensive_count": 1
+      },
+      "common_pitfalls": [
+        {
+          "pitfall": "混淆互余与互补概念",
+          "why_happens": "互余是两角和为90°，互补是两角和为180°，学生容易记混",
+          "how_to_avoid": "用口诀区分：互余（90°）像直角符号，互补（180°）像平角"
+        },
+        {
+          "pitfall": "在非直角三角形中错误应用互余关系",
+          "why_happens": "未确认三角形有直角就套用锐角互余",
+          "how_to_avoid": "应用前先检查三角形是否标注直角或已知直角条件"
+        }
+      ]
+    }
+  ],
+  "question_status": "pending",
+  "questions": [],
+  "current_agent": "knowledge_extractor",
+  "error_count": 0,
+  "messages": []
+}
