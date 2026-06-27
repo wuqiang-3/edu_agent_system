@@ -44,7 +44,6 @@ export default function Login({ onLogin }) {
         <div className="text-center mb-8">
           <div className="text-5xl mb-3">🎓</div>
           <h1 className="text-2xl font-bold text-gray-800">学习系统</h1>
-          <p className="text-gray-500 text-sm mt-1">陕西省 · 8年级 · 数学（北师大版）</p>
         </div>
 
         {/* 切换标签 */}
@@ -99,10 +98,6 @@ export default function Login({ onLogin }) {
             {loading ? '处理中...' : tab === 'login' ? '登  录' : '注  册'}
           </button>
         </form>
-
-        <p className="text-center text-xs text-gray-400 mt-6">
-          MVP 演示版 · 使用即代表同意服务条款
-        </p>
       </div>
     </div>
   )
