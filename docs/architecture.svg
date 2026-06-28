@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="540" font-family="system-ui, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="860" height="540" fill="#fafbfc"/>
+
+  <!-- ====== Client Layer ====== -->
+  <rect x="0" y="0" width="860" height="60" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="16" y="20" fill="#94a3b8" font-size="11">浏览器</text>
+
+  <rect x="100" y="12" width="130" height="32" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="165" y="32" text-anchor="middle" fill="#334155" font-size="12">学生端 :5173</text>
+
+  <rect x="260" y="12" width="130" height="32" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="325" y="32" text-anchor="middle" fill="#334155" font-size="12">管理台 :5173/admin</text>
+
+  <rect x="420" y="12" width="115" height="32" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="477" y="32" text-anchor="middle" fill="#334155" font-size="12">Swagger :8000/docs</text>
+
+  <!-- ====== Frontend Layer ====== -->
+  <rect x="0" y="72" width="860" height="60" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="16" y="92" fill="#94a3b8" font-size="11">前端</text>
+
+  <rect x="70" y="82" width="260" height="38" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="200" y="100" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">React 18 + Vite + react-router</text>
+  <text x="200" y="114" text-anchor="middle" fill="#64748b" font-size="10">Ant Design 6 / Tailwind CSS / useQuiz Hook</text>
+
+  <rect x="360" y="82" width="150" height="38" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="435" y="100" text-anchor="middle" fill="#334155" font-size="11">9个页面 / 128条用例</text>
+  <text x="435" y="114" text-anchor="middle" fill="#64748b" font-size="10">Jest + RTL</text>
+
+  <!-- Frontend → Backend -->
+  <line x1="435" y1="120" x2="435" y2="148" stroke="#64748b" stroke-width="1.2"/>
+  <polygon points="432,145 435,152 438,145" fill="#64748b"/>
+  <text x="450" y="140" fill="#64748b" font-size="9">REST/JWT</text>
+
+  <!-- ====== Backend Layer ====== -->
+  <rect x="0" y="152" width="860" height="108" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="16" y="172" fill="#94a3b8" font-size="11">后端 (FastAPI + Uvicorn :8000)</text>
+
+  <rect x="16" y="182" width="160" height="66" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="96" y="204" text-anchor="middle" fill="#166534" font-size="12" font-weight="600">app_clean.py</text>
+  <text x="96" y="220" text-anchor="middle" fill="#64748b" font-size="9">CORS / 异常处理</text>
+  <text x="96" y="236" text-anchor="middle" fill="#64748b" font-size="9">Bearer Token / 限流</text>
+
+  <rect x="196" y="182" width="340" height="66" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="366" y="204" text-anchor="middle" fill="#334155" font-size="11" font-weight="600">业务路由 (7个模块 / 25+ 端点)</text>
+  <text x="366" y="222" text-anchor="middle" fill="#64748b" font-size="10">auth / content / practice / analysis / exam / social / admin</text>
+  <text x="366" y="240" text-anchor="middle" fill="#64748b" font-size="9">bcrypt | IDOR 防护 | 角色验证 | 线程安全 DAL</text>
+
+  <rect x="556" y="182" width="288" height="66" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="700" y="204" text-anchor="middle" fill="#334155" font-size="11" font-weight="600">算法引擎</text>
+  <text x="700" y="222" text-anchor="middle" fill="#64748b" font-size="10">薄弱分析 / 自适应难度 / 学习路径</text>
+  <text x="700" y="240" text-anchor="middle" fill="#64748b" font-size="9">艾宾浩斯复习 / 周月报 / 智能组卷</text>
+
+  <!-- Backend → AI Pipeline -->
+  <line x1="96" y1="248" x2="96" y2="276" stroke="#3b82f6" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <polygon points="93,273 96,280 99,273" fill="#3b82f6"/>
+
+  <!-- ====== AI Pipeline Layer ====== -->
+  <rect x="0" y="280" width="860" height="124" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="16" y="300" fill="#94a3b8" font-size="11">AI 生成管道 (LangGraph + DeepSeek)</text>
+
+  <!-- Agent 1 -->
+  <rect x="8" y="312" width="120" height="76" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="68" y="334" text-anchor="middle" fill="#334155" font-size="11" font-weight="600">章节注入</text>
+  <text x="68" y="352" text-anchor="middle" fill="#64748b" font-size="9">加载 seed_data.json</text>
+  <text x="68" y="368" text-anchor="middle" fill="#64748b" font-size="9">8章23节 / 注入 State</text>
+  <text x="68" y="382" text-anchor="middle" fill="#94a3b8" font-size="8">Agent 1</text>
+
+  <line x1="128" y1="350" x2="154" y2="350" stroke="#3b82f6" stroke-width="1.2"/>
+  <polygon points="151,347 158,350 151,353" fill="#3b82f6"/>
+
+  <!-- Agent 2 -->
+  <rect x="162" y="312" width="130" height="76" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="227" y="334" text-anchor="middle" fill="#334155" font-size="11" font-weight="600">知识点提取</text>
+  <text x="227" y="352" text-anchor="middle" fill="#64748b" font-size="9">提取知识点 (72+)</text>
+  <text x="227" y="368" text-anchor="middle" fill="#64748b" font-size="9">kp_partial.json</text>
+  <text x="227" y="382" text-anchor="middle" fill="#94a3b8" font-size="8">Agent 2</text>
+
+  <line x1="292" y1="350" x2="318" y2="350" stroke="#3b82f6" stroke-width="1.2"/>
+  <polygon points="315,347 322,350 315,353" fill="#3b82f6"/>
+
+  <!-- Agent 3 -->
+  <rect x="326" y="312" width="130" height="76" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="391" y="334" text-anchor="middle" fill="#334155" font-size="11" font-weight="600">方法生成</text>
+  <text x="391" y="352" text-anchor="middle" fill="#64748b" font-size="9">生成方法卡片 (72+)</text>
+  <text x="391" y="368" text-anchor="middle" fill="#64748b" font-size="9">methods_partial.json</text>
+  <text x="391" y="382" text-anchor="middle" fill="#94a3b8" font-size="8">Agent 3</text>
+
+  <line x1="456" y1="350" x2="482" y2="350" stroke="#3b82f6" stroke-width="1.2"/>
+  <polygon points="479,347 486,350 479,353" fill="#3b82f6"/>
+
+  <!-- Agent 4 -->
+  <rect x="490" y="312" width="130" height="76" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="555" y="334" text-anchor="middle" fill="#334155" font-size="11" font-weight="600">智能出题</text>
+  <text x="555" y="352" text-anchor="middle" fill="#64748b" font-size="9">出题 3道/KP (216+)</text>
+  <text x="555" y="368" text-anchor="middle" fill="#64748b" font-size="9">questions_partial.json</text>
+  <text x="555" y="382" text-anchor="middle" fill="#94a3b8" font-size="8">Agent 4</text>
+
+  <!-- DeepSeek API -->
+  <rect x="672" y="312" width="172" height="76" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="758" y="334" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">DeepSeek Chat API</text>
+  <text x="758" y="352" text-anchor="middle" fill="#64748b" font-size="9">json5 容错解析</text>
+  <text x="758" y="368" text-anchor="middle" fill="#64748b" font-size="9">最多 3 次重试</text>
+
+  <!-- Agents → DeepSeek  -->
+  <line x1="620" y1="340" x2="668" y2="340" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="620" y1="360" x2="668" y2="360" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Summary -->
+  <line x1="555" y1="388" x2="555" y2="410" stroke="#10b981" stroke-width="1"/>
+  <polygon points="552,407 555,414 558,407" fill="#10b981"/>
+
+  <rect x="490" y="414" width="130" height="26" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="555" y="431" text-anchor="middle" fill="#166534" font-size="11" font-weight="600">汇总 → result.json</text>
+
+  <!-- ====== Data & Infra Layer ====== -->
+  <rect x="0" y="452" width="860" height="60" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="16" y="472" fill="#94a3b8" font-size="11">数据与基础设施</text>
+
+  <rect x="65" y="464" width="155" height="34" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="142" y="480" text-anchor="middle" fill="#334155" font-size="11">JSON 存储 (9个文件)</text>
+  <text x="142" y="494" text-anchor="middle" fill="#64748b" font-size="9">线程锁 + 原子写入</text>
+
+  <rect x="245" y="464" width="115" height="34" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="302" y="480" text-anchor="middle" fill="#334155" font-size="11">GitHub Actions</text>
+  <text x="302" y="494" text-anchor="middle" fill="#64748b" font-size="9">CI 双端测试</text>
+
+  <rect x="385" y="464" width="95" height="34" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="432" y="480" text-anchor="middle" fill="#334155" font-size="11">Render</text>
+  <text x="432" y="494" text-anchor="middle" fill="#64748b" font-size="9">一键部署</text>
+
+  <rect x="505" y="464" width="135" height="34" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="572" y="480" text-anchor="middle" fill="#334155" font-size="11" font-weight="600">阶段一 (MVP)</text>
+  <text x="572" y="494" text-anchor="middle" fill="#64748b" font-size="9">计划 PostgreSQL + Docker</text>
+
+  <!-- Cross-layer data flow -->
+  <line x1="96" y1="452" x2="142" y2="462" stroke="#64748b" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <line x1="555" y1="440" x2="555" y2="462" stroke="#10b981" stroke-width="0.8" stroke-dasharray="3,3"/>
+</svg>
